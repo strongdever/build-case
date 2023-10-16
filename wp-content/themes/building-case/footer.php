@@ -23,6 +23,66 @@
 			<div class="hamburger-overlay">
 			</div>
 		</div>
+		<script type='text/javascript'>
+			!(function ($) {
+				"use strict";
+				$(document).ready(function(){
+					$('.nav-objects').click(function() {
+						var target = $('#objects');
+						if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 300);
+						}
+					});
+
+					$('.nav-exterior-photo').click(function() {
+						var target = $('#exterior-photo');
+						if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 300);
+						}
+					});
+
+					$('.nav-drawings').click(function() {
+						var target = $('#drawings');
+						if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 300);
+						}
+					});
+
+					$('.nav-estimates').click(function() {
+						var target = $('#estimates');
+						if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 300);
+						}
+					});
+
+					$('.nav-specifications').click(function() {
+						var target = $('#specifications');
+						if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 300);
+						}
+					});
+
+					$('.nav-applying').click(function() {
+						var target = $('#applying');
+						if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 300);
+						}
+					});
+				});
+			})(jQuery);
+		</script>
 		<script type='text/javascript' src='./assets/js/aos.js' id='aos-js'></script>
 		<script type='text/javascript' src='./assets/js/set_parts.js' id='set_parts-js'></script>
 		<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' id='slick-js'></script>

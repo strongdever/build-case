@@ -611,7 +611,6 @@ div.pageWrap {
 	font-size: 2.6rem;
 	font-weight: 900;
 	line-height: 1.38;
-	text-align: center
 }
 
 .common-service .common-service-wrapper ul li .contents>p {
@@ -696,38 +695,6 @@ div.pageWrap {
 	font-size: 1.6rem;
 	font-weight: 500;
 	text-align: center
-}
-
-header {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-box-align: center;
-	align-items: center;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 999;
-	height: 100px;
-	margin: 0 20px
-}
-
-header .header-wrapper {
-	width: 100%;
-	margin: 0 auto;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-justify-content: space-between;
-	justify-content: space-between;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center
 }
 
 header .header-wrapper span.logo {
@@ -1338,145 +1305,6 @@ footer .copy {
 		border: 15px solid #eafcf7
 	}
 
-	header {
-		height: 60px;
-		margin: 0 15px;
-		z-index: 9999
-	}
-
-	header .header-wrapper span.logo {
-		width: 140px
-	}
-
-	header .header-wrapper .globalmenu {
-		display: none
-	}
-
-	header .header-wrapper .header-right {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-wrap: wrap;
-		flex-wrap: wrap;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center
-	}
-
-	header .header-wrapper .header-right .contact-btn {
-		width: 105px;
-		height: 36px;
-		margin-right: 10px;
-		background-color: #0e81d3;
-		border: 1px solid transparent;
-		border-radius: 18px;
-		box-shadow: 2px 2px #03538d;
-		overflow: hidden
-	}
-
-	header .header-wrapper .header-right .contact-btn a {
-		position: relative;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-wrap: wrap;
-		flex-wrap: wrap;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
-		width: 100%;
-		height: 100%;
-		padding-left: 10px;
-		color: #fff;
-		font-size: 1rem;
-		font-weight: 900;
-		z-index: 3
-	}
-
-	header .header-wrapper .header-right .contact-btn a::before {
-		content: "";
-		display: block;
-		width: 15px;
-		height: 14px;
-		position: absolute;
-		-webkit-transform: translate(0%, -50%);
-		transform: translate(0%, -50%);
-		top: 50%;
-		left: 10px;
-		transition: .5s ease;
-		z-index: 3;
-		background: url(../common/images/mail_white.svg) no-repeat top center/contain
-	}
-
-	header .header-wrapper .header-right .trigger {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-wrap: wrap;
-		flex-wrap: wrap;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
-		top: 0;
-		right: 0;
-		width: 55px;
-		height: 55px;
-		z-index: 100
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger,
-	header .header-wrapper .header-right .trigger .menu-trigger span {
-		display: inline-block;
-		transition: all .4s
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger {
-		position: relative;
-		width: 40px;
-		height: 30px
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger span {
-		position: absolute;
-		right: 0;
-		width: 100%;
-		height: 5px;
-		background: #0e81d3;
-		border-radius: 10px
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger span:nth-of-type(1) {
-		top: 0
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger span:nth-of-type(2) {
-		top: 13px
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger span:nth-of-type(3) {
-		top: 25px
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger.active span:nth-of-type(1) {
-		opacity: 0
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger.active span:nth-of-type(2) {
-		transform: translateY(0) rotate(45deg);
-		top: 9px
-	}
-
-	header .header-wrapper .header-right .trigger .menu-trigger.active span:nth-of-type(3) {
-		transform: translateY(8px) rotate(-45deg);
-		top: 1px
-	}
-
 	footer {
 		padding: 45px 0 0
 	}
@@ -1761,52 +1589,57 @@ footer .copy {
 	}
 }
 
-.news {
+.objects {
 	padding: 60px 0 100px;
 	background-color: #fff
 }
 
-.news__card {
+.objects__card {
+	position: relative;
 	margin-right: 20px
 }
 
-.news__card figure {
+.objects__card figure {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
 	margin-bottom: 15px
 }
 
-.news__card figure::before {
+.objects__card figure::before {
 	content: "";
 	display: block;
 	padding-top: 62.5%
 }
 
-.news__card figure img {
+.objects__card figure img {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	object-fit: contain;
+	object-fit: cover;
 	width: 100%;
 	height: 100%
 }
 
-.news__card .title {
-	margin-bottom: 10px;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 1.5
+.objects__card .title {
+	display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    color: #333;
+	text-shadow: 3px 3px 8px #8f8f8f;
 }
 
-.news__card .cont {
+.objects__card .cont {
 	font-size: 16px;
 	line-height: 1.5
 }
 
-.news__card-wrapper {
+.objects__card-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 90%;
@@ -1814,7 +1647,7 @@ footer .copy {
 	margin: 0 0 60px auto
 }
 
-.news .slick-arrow {
+.objects .slick-arrow {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1824,16 +1657,16 @@ footer .copy {
 	height: 40px
 }
 
-.news #js-slider-1 .slick-list {
+.objects #js-slider-1 .slick-list {
 	padding: 0 30% 0 0 !important
 }
 
-.news .slick-prev {
+.objects .slick-prev {
 	left: unset;
 	right: 210px
 }
 
-.news .slick-prev::before {
+.objects .slick-prev::before {
 	content: "" !important;
 	width: 16px;
 	height: 29px;
@@ -1841,11 +1674,11 @@ footer .copy {
 	background-size: cover
 }
 
-.news .slick-next {
+.objects .slick-next {
 	right: 150px
 }
 
-.news .slick-next:before {
+.objects .slick-next:before {
 	content: "" !important;
 	width: 16px;
 	height: 29px;
@@ -1854,52 +1687,52 @@ footer .copy {
 }
 
 @media screen and (max-width: 768px) {
-	.news {
+	.objects {
 		padding: 60px 0
 	}
 
-	.news__card figure {
+	.objects__card figure {
 		margin-bottom: 10px
 	}
 
-	.news__card .title {
+	.objects__card .title {
 		font-size: 1.8rem
 	}
 
-	.news__card .cont {
+	.objects__card .cont {
 		font-size: 1.3rem
 	}
 
-	.news__card-wrapper {
+	.objects__card-wrapper {
 		max-width: 95%;
 		margin: 0 0 40px auto
 	}
 
-	.news .slick-arrow {
+	.objects .slick-arrow {
 		top: -50px;
 		width: 40px;
 		height: 40px
 	}
 
-	.news #js-slider-1 .slick-list {
+	.objects #js-slider-1 .slick-list {
 		padding: 0 30% 0 0 !important
 	}
 
-	.news .slick-prev {
+	.objects .slick-prev {
 		left: unset;
 		right: 15%
 	}
 
-	.news .slick-prev::before {
+	.objects .slick-prev::before {
 		width: 16px;
 		height: 29px
 	}
 
-	.news .slick-next {
+	.objects .slick-next {
 		right: 5%
 	}
 
-	.news .slick-next:before {
+	.objects .slick-next:before {
 		width: 16px;
 		height: 29px
 	}

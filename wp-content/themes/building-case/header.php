@@ -68,18 +68,25 @@ $path_parts = pathinfo($path_parts);
 			<header data-aos="fade-down">
 				<div class="header-wrapper">
 					<span class="logo"><a href="<?php echo HOME ; ?>"><img src="<?php echo T_DIRE_URI; ?>/assets/img/logo.svg" alt="NEXT STEP"></a></span>
-					<nav class="globalmenu">
-						<ul>
-							<li><a href="./about/">建物事例調査募集について</a></li>
-							<li><a href="./service/">Service</a></li>
-							<li><a href="./recruit/">Recruit</a></li>
-							<li class="contact-area">
-								<span class="contact-btn">
-								<a href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_blank">Contact</a>
-								</span>
-							</li>
-						</ul>
-					</nav>
+          <div class="nav-wrapper">
+            <div class="top-bar">
+              <div class="desc-16-normal f-applying">現在、応募を受け付けておりません。 応募開始日は<a href="">こちら</a>からご確認ください。</div>
+              <a class="yellow-btn nav-applying" href="<?php echo HOME; ?>#applying">
+                <span>調査応募へ</span>
+              </a>
+            </div>
+            <nav class="globalmenu">
+              <ul>
+                <li><a href="<?php echo HOME . 'about'; ?>">建物事例調査募集について</a></li>
+                <li><a href="<?php echo HOME . 'incentive'; ?>">インセンティブ</a></li>
+                <li><a href="<?php echo HOME . 'flow'; ?>">建物事例調査募集流れ</a></li>
+                <li><a href="<?php echo HOME . '#objects'; ?>" class="nav-objects">調査対象建物</a></li>
+                <li><a href="<?php echo HOME . 'submissions'; ?>">提出物について</a></li>
+                <li><a href="./service/">Service</a></li>
+                <li><a href="./recruit/">Recruit</a></li>
+              </ul>
+					  </nav>
+          </div>
 					<div class="header-right">
 						<span class="contact-btn">
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_blank">Contact</a>
