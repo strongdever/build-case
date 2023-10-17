@@ -26,10 +26,10 @@
                 <div class="top-img-catch">
                     <h1 class="">
                         <p class="subtitle">建物事例データを募集します。</p>
-                        <p class="maintitle"><span>高額</span>の<a href="#incentive"><span>インセンティブ</span></a>を取得しませんか？</p>
+                        <p class="maintitle"><span>高額</span>の<a class="nav-incentive" href="#incentive"><span>インセンティブ</span></a>を取得しませんか？</p>
                     </h1>
                 </div>
-                <!-- <p class="move-text">建物事例データを募集中！&nbsp;&nbsp;&nbsp;あなたの建物の写真や図面を共有していただければ、素晴らしいインセンティブが待っています！当選された方には、なんと5000～10000万円相当のAmazonギフト券をプレゼントいたします。
+                <!-- <p class="move-text">建物事例データを募集中！あなたの建物の写真や図面を共有していただければ、素晴らしいインセンティブが待っています！当選された方には、なんと5000～10000万円相当のAmazonギフト券をプレゼントいたします。
                     <span class="sphidden"></span></p> -->
             </div>
             <div class="page-content">
@@ -51,9 +51,9 @@
                             あなたの建物が他の方々のインスピレーションの源となり、<br>
                             建築界に新たなアイデアと情報を提供できるかもしれません。<br>
                             あなたの建物の写真や図面を共有していただければ、<br>
-                            素晴らしい<a href="#incentive" class="href-incentive">インセンティブ</a>が待っています！<br>
+                            素晴らしい<a href="#incentive" class="href-incentive nav-incentive">インセンティブ</a>が待っています！<br>
                             当選された方には、なんと5000～10000万円相当の<br>Amazonギフト券をプレゼントいたします。<br>
-                            ぜひお気軽にご<a href="#applying" class="href-apply">応募</a>ください。<br>
+                            ぜひお気軽にご<a href="#applying" class="href-apply nav-applying">応募</a>ください。<br>
                             </p>
                         </div>
                         <span class="viewmore-btn" data-aos="fade-out">
@@ -111,7 +111,7 @@
                     </div>
                     <img class="background" src="<?php echo T_DIRE_URI; ?>/assets/img/incentive-bg.webp">
                 </div>
-                <div class="common-service flow">
+                <div class="common-service flow" id="flow">
                     <div class="common-service-wrapper content content1100">
                         <div class="common-title" data-aos="fade-up">
                             <h2>建物事例調査募集流れ</h2>
@@ -131,7 +131,7 @@
                                                     </div>
                                                     <div class="step-content">
                                                         <h3 class="step-title">
-                                                        調査協力に<a href="#applying" class="href-apply">応募</a>していただく
+                                                        調査協力に<a href="#applying" class="href-apply nav-applying">応募</a>していただく
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -170,7 +170,7 @@
                                                     </div>
                                                     <div class="step-content">
                                                         <h3 class="step-title">
-                                                        【物調】提出物の確認と<a href="#incentive" class="href-incentive">インセンティブ</a>提供
+                                                        【物調】提出物の確認と<a href="#incentive" class="href-incentive nav-incentive">インセンティブ</a>提供
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -228,7 +228,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="objects" id="objects">
+                <div class="common-service objects" id="objects">
                     <div class="objects-wrapper">
                         <div class="common-title" data-aos="fade-up">
                             <h2 data-aos="fade-up">調査対象建物</h2>
@@ -385,7 +385,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="common-service submissions">
+                <div class="common-service submissions" id="submissions">
                     <div class="common-service-wrapper content content1100">
                         <div class="common-title" data-aos="fade-up">
                             <h2>提出物について</h2>
@@ -447,47 +447,244 @@
                     <div class="top-company-wrapper cr-common">
                         <div class="title-area">
                             <div class="common-title" data-aos="fade-up">
-                                <h2>Comapny</h2>
-                                <span>会社概要</span>
+                                <h2>戸建所</h2>
                             </div>
-                            <p data-aos="fade-up">NextStep TECHNOLOGIES株式会社は、システムにおける<br>
-                                様々な課題に対して、 培ってきた知見と技術を<br class="tab-block">適用して解決への道を図り、<br>
-                                あらたなるサービスを知恵を出し合いながら創出します。
+                            <p data-aos="fade-up" class="desc-16-normal top-desc">ここから3階建て以下の戸建所て建物事例調査にご応募ください。<br>
+                            応募前に必ず以下の内容をご確認お願いします。
                             </p>
-                            <span class="viewmore-btn white" data-aos="fade-up">
-                            <a href="https://www.nextstep-tec.com/company">more</a>
-                            </span>
+                            <ul class="confirm-list desc-16-normal" data-aos="fade-up">
+                                <li class="confirm-item">
+                                    <a href="#flow">募集の流れ</a>
+                                </li>
+                                <li class="confirm-item">
+                                    <a href="#objects">調査対象建物</a>
+                                </li>
+                                <li class="confirm-item">
+                                    <a href="#submissions">提出物について</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="viewmore-btn white" data-aos="fade-up">
+                            <a class="single-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_black">事例調査への参加</a>
+                        </span>
+                        <div class="checkbox-wrapper desc-16-normal" data-aos="fade-up">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="single-check" name="single-check">
+                                <label for="single-check"><span><a href="<?php echo HOME . 'rule-privacy'; ?>" target="_blank">資料の利用方法</a></span>と<span><a href="<?php echo HOME . 'regarding-point'; ?>" target="_blank">応募に際しての注意点</a></span>を読み、同意します。</label>
+                                <div class="single-error error-msg">この項目は必須項目です。</div>
+                            </div>
                         </div>
                     </div>
                     <div class="top-recruit-wrapper cr-common">
                         <div class="title-area">
                             <div class="common-title" data-aos="fade-up">
-                                <h2>Recruit</h2>
-                                <span>採用情報</span>
+                                <h2>事業用建物</h2>
                             </div>
-                            <p data-aos="fade-up">これからIT業界を選ぶ方、<br class="tab-block">いままでの会社とは違った<br class="pclarge-block">
-                                ビジネスをやってみようと思う方、<br class="tab-block">新しいビジネスを育ててみたいと思う方、<br>
-                                ぜひお力を貸してください。一緒に育てていきましょう。<br>
+                            <p data-aos="fade-up" class="desc-16-normal top-desc">ここから3階建て以上の事業用建物事例調査にご応募ください。<br>
+                            応募前に必ず以下の内容をご確認お願いします。
                             </p>
-                            <span class="viewmore-btn white" data-aos="fade-up">
-                            <a href="https://www.nextstep-tec.com/recruit">more</a>
-                            </span>
+                            <ul class="confirm-list desc-16-normal">
+                                <li class="confirm-item">
+                                    <a href="#flow">募集の流れ</a>
+                                </li>
+                                <li class="confirm-item">
+                                    <a href="#objects">調査対象建物</a>
+                                </li>
+                                <li class="confirm-item">
+                                    <a href="#submissions">提出物について</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="viewmore-btn white" data-aos="fade-up">
+                            <a class="business-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_black">事例調査への参加</a>
+                        </span>
+                        <div class="checkbox-wrapper desc-16-normal" data-aos="fade-up">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="business-check" name="business-check">
+                                <label for="business-check"><span><a href="<?php echo HOME . 'rule-privacy'; ?>" target="_blank">資料の利用方法</a></span>と<span><a href="<?php echo HOME . 'regarding-point'; ?>" target="_blank">応募に際しての注意点</a></span>を読み、同意します。</label>
+                                <div class="business-error error-msg">この項目は必須項目です。</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="common-contact">
-                    <div class="common-contact-wrapper">
-                        <div class="common-title" data-aos="">
-                            <h2>Contact</h2>
+                <div class="common-service news">
+                    <div class="common-service-wrapper content content1100">
+                        <div class="common-title" data-aos="fade-up">
+                            <h2>新着情報</h2>
+                            <span>News</span>
                         </div>
-                        <p data-aos="">NextStep TECHNOLOGIES株式会社への<br class="tab-block">お問い合わせはこちらから</p>
-                        <span class="viewmore-btn" data-aos="">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_blank">more</a>
-                        </span>
+                        <?php
+                        $args = [
+                            'post_type' => 'news',
+                            'post_status' => 'publish',
+                            'paged' => $paged,
+                            'posts_per_page' => 5,
+                        ];
+                        $custom_query = new WP_Query( $args );
+                        if( $custom_query->have_posts() ) :
+                        ?>
+                        <div class="news-wrapper" data-aos="fade-up">
+                            <?php while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+                            <div class="news-item">
+                                <div class="item">
+                                    <li>
+                                        <span class="date"><?php the_time('Y.m.d'); ?></span>
+                                    </li>
+                                    <?php
+                                    $post_cats = get_the_terms(get_the_ID(), 'news-category');
+                                    if( $post_cats) :
+                                        foreach($post_cats as $post_cat) :
+                                    ?>
+                                    <li>
+                                        <a class="category" href="<?php echo get_term_link($post_cat); ?>"><?php echo $post_cat->name; ?></a>
+                                    </li>
+                                        <?php endforeach; ?>
+                                    <?php endif; ?>
+                                    <li>
+                                        <a class="title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                    </li>
+                                </div>
+                            </div>
+                            <?php endwhile; ?>
+                        </div>
+                        <?php endif; ?>
+                        <a href="<?php echo HOME . 'news'; ?>" data-aos="fade-up">
+                            <span class="viewmore-btn">
+                                <p>記事一覧</p>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="common-service case">
+                    <div class="content content1100">
+                        <div class="common-title" data-aos="fade-up">
+                            <h2>募集事例</h2>
+                            <span>Case</span>
+                        </div>
+                        <ul class="case-list" data-aos="fade-up">
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case001.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case002.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case001.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case001.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case001.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case001.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case001.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                            <li class="case-item">
+                                <figure>
+                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/case001.jpg" alt="">
+                                </figure>
+                                <div class="content-wrapper desc-16-normal">
+                                    <span>延床3,582㎡</span><span>S造</span><br>
+                                    <span>13階建</span><span>竣工2010年</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="<?php echo HOME . 'news'; ?>" data-aos="fade-up">
+                            <span class="viewmore-btn">
+                                <p>記事一覧</p>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <script type="text/javascript">
+        !(function ($) {
+            $(document).ready(function(e){
+                $('.single-btn').click(function() {
+                    if($('#single-check').is(":checked")) {
+                        $('.single-error').hide();
+                    } else {
+                        event.preventDefault();
+                        $('.single-error').show();
+                    }
+                });
+                $('#single-check').change(function() {
+                    if($(this).is(":checked")) {
+                        $('.single-error').hide();
+                    } else {
+                        event.preventDefault();
+                        $('.single-error').show();
+                    }
+                });
+
+                $('.business-btn').click(function() {
+                    if($('#business-check').is(":checked")) {
+                        $('.business-error').hide();
+                    } else {
+                        event.preventDefault();
+                        $('.business-error').show();
+                    }
+                });
+                $('#business-check').change(function() {
+                    if($(this).is(":checked")) {
+                        $('.business-error').hide();
+                    } else {
+                        event.preventDefault();
+                        $('.business-error').show();
+                    }
+                });
+            });
+        })(jQuery);
+    </script>
 
 <?php get_footer(); ?>

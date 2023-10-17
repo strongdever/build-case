@@ -1,93 +1,77 @@
             <footer class="">
-				<div class="footer-wrapper content content1100" data-aos="fade-up">
-					<div class="foot-logo-wrapper">
-						<a href="/">
-							<img src="https://www.nextstep-tec.com/sys/wp-content/themes/next-step/common/images/logo.svg" alt="NEXT STEP">
-							<p>東京都板橋区前野町2-16-1</p>
+				<div class="footer-wrapper">
+					<div class="logo-social-wrapper" data-aos="fade-up">
+						<a class="logo" href="/">
+							<img src="<?php echo T_DIRE_URI; ?>/assets/img/logo.svg" alt="建物事例調査募集">
+							<p class="desc-16-normal">実際の建物を通じて、建築や購入の経験を共有し、豊富な事例データを収集する窓口サイト。<br>建築者や購入者への感謝の意を込め、情報提供者にインセンティブを提供します。</p>
 						</a>
+						<ul class="social-list">
+							<li class="social-item">
+								<a href="https://facebook.com"><img src="<?php echo T_DIRE_URI; ?>/assets/img/facebook.png"></a>
+							</li>
+							<li class="social-item">
+								<a href="https://twitter.com"><img src="<?php echo T_DIRE_URI; ?>/assets/img/twitter.png"></a>
+							</li>
+							<li class="social-item">
+								<a href="https://line.com"><img src="<?php echo T_DIRE_URI; ?>/assets/img/line.png"></a>
+							</li>
+						</ul>
 					</div>
-					<nav class="footer-nav">
+					<nav class="footer-nav desc-16-normal" data-aos="fade-up">
 						<ul>
-							<li><a href="https://www.nextstep-tec.com/company/">Comapny</a></li>
-							<li><a href="https://www.nextstep-tec.com/service/">Service</a></li>
-							<li><a href="https://www.nextstep-tec.com/privacy/">Privacy policy</a></li>
+							<li><strong>サービスについて</strong></li>
+							<li><a href="<?php echo HOME . 'news'; ?>">新着情報</a></li>
+							<li><a href="<?php echo HOME . 'about'; ?>">建物事例調査募集について</a></li>
+							<li><a href="<?php echo HOME . 'incentive'; ?>">インセンティブ</a></li>
+							<li><a href="<?php echo HOME . 'flow'; ?>">募集の流れ</a></li>
+							<li><a href="<?php echo HOME . '#objects'; ?>" class="nav-objects">調査対象建物</a></li>
+							<li><a href="<?php echo HOME . 'submissions'; ?>">提出物について</a></li>
+							<li><a href="<?php echo HOME . 'case'; ?>">建物事例</a></li>
 						</ul>
 					</nav>
-					<ul class="sns-area">
-						<li><a href="https://www.facebook.com/mitsuru.yoshida"><img src="https://www.nextstep-tec.com/sys/wp-content/themes/next-step/common/images/facebook_logo.png" alt=""></a></li>
-						<li><a href="https://twitter.com/01nextstepcom"><img src="https://www.nextstep-tec.com/sys/wp-content/themes/next-step/common/images/twitter_logo.png" alt=""></a></li>
-					</ul>
+					<nav class="footer-nav desc-16-normal" data-aos="fade-up">
+						<ul>
+							<li><strong>書類共通事項</strong></li>
+							<li>
+								<a class="nav-exterior-photo" href="<?php echo HOME; ?>submissions#exterior-photo">建物外観写真</a>
+							</li>
+							<li>
+								<a class="nav-drawings" href="<?php echo HOME; ?>submissions#drawings">図面</a>
+							</li>
+							<li>
+								<a class="nav-estimates" href="<?php echo HOME; ?>submissions#estimates">見積書（建物の見積書）</a>
+							</li>
+							<li>
+								<a class="nav-specifications" href="<?php echo HOME; ?>submissions#specifications">仕様書</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="footer-nav desc-16-normal" data-aos="fade-up">
+						<ul>
+							<li><strong>その他</strong></li>
+							<li>
+								<a href="<?php echo HOME; ?>rule-privacy">資料の利用方法</a>
+							</li>
+							<li>
+								<a href="<?php echo HOME; ?>regarding-point">応募に際しての注意点</a>
+							</li>
+							<li>
+								<a href="<?php echo HOME; ?>company">運営会社</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
-				<p class="copy ">&copy; 2022 NextStep TECHNOLOGIES株式会社　<br class="tab-block">All Rights Reserved.</p>
+				<p class="copy ">&copy; 建物事例調査サイト　<br class="tab-block">All Rights Reserved.</p>
 			</footer>
 			<div class="hamburger-overlay">
 			</div>
 		</div>
-		<script type='text/javascript'>
-			!(function ($) {
-				"use strict";
-				$(document).ready(function(){
-					$('.nav-objects').click(function() {
-						var target = $('#objects');
-						if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 300);
-						}
-					});
 
-					$('.nav-exterior-photo').click(function() {
-						var target = $('#exterior-photo');
-						if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 300);
-						}
-					});
-
-					$('.nav-drawings').click(function() {
-						var target = $('#drawings');
-						if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 300);
-						}
-					});
-
-					$('.nav-estimates').click(function() {
-						var target = $('#estimates');
-						if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 300);
-						}
-					});
-
-					$('.nav-specifications').click(function() {
-						var target = $('#specifications');
-						if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 300);
-						}
-					});
-
-					$('.nav-applying').click(function() {
-						var target = $('#applying');
-						if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 300);
-						}
-					});
-				});
-			})(jQuery);
-		</script>
-		<script type='text/javascript' src='./assets/js/aos.js' id='aos-js'></script>
-		<script type='text/javascript' src='./assets/js/set_parts.js' id='set_parts-js'></script>
+		<script type='text/javascript' src='<?php echo T_DIRE_URI;?>/assets/js/aos.js' id='aos-js'></script>
+		<script type='text/javascript' src='<?php echo T_DIRE_URI;?>/assets/js/set_parts.js' id='set_parts-js'></script>
 		<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' id='slick-js'></script>
-		<script type='text/javascript' src='./assets/js/luxy.min.js' id='luxy-js-js'></script>
-		<script type='text/javascript' src='./assets/js/top.js' id='top-js-js'></script>
+		<script type='text/javascript' src='<?php echo T_DIRE_URI;?>/assets/js/luxy.min.js' id='luxy-js-js'></script>
+		<script type='text/javascript' src='<?php echo T_DIRE_URI;?>/assets/js/top.js' id='top-js-js'></script>
         <?php wp_footer(); ?>
     </body>
 

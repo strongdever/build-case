@@ -89,7 +89,7 @@ add_action('wp_head', 'my_script_constants');
 function theme_add_files() {
     global $post;
 
-    // wp_enqueue_style('c-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', [], '1.0', 'all');
+    wp_enqueue_style('c-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', [], '1.0', 'all');
     wp_enqueue_style('c-style', T_DIRE_URI.'/assets/css/style.css', [], '1.0', 'all');
     wp_enqueue_style('c-aos', T_DIRE_URI.'/assets/css/aos.css', [], '1.0', 'all');
     wp_enqueue_style('c-slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?ver=6.3.1', [], '1.0', 'all');
@@ -105,8 +105,8 @@ function theme_add_files() {
     wp_enqueue_script('s-jquery', T_DIRE_URI.'./assets/js/jquery-3.4.0.min.js', [], '1.0', false);
     wp_enqueue_script('s-slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js', [], '1.0', true);
     wp_enqueue_script('s-ofi', 'https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js?ver=6.3.1', [], '1.0', true);
-    // wp_enqueue_script('s-fontawesome', 'https://kit.fontawesome.com/8cbdf0a85f.js', [], '1.0', true);  
-    // wp_enqueue_script('s-common', T_DIRE_URI.'/assets/js/common.js', [], '1.0', true);  
+    wp_enqueue_script('s-fontawesome', 'https://kit.fontawesome.com/8cbdf0a85f.js', [], '1.0', true);  
+    wp_enqueue_script('s-common', T_DIRE_URI.'/assets/js/common.js', [], '1.0', true);  
 }
 
 add_action('wp_enqueue_scripts', 'theme_add_files');
@@ -226,6 +226,40 @@ function catch_that_image() {
       $first_img = T_DIRE_URI . "/assets/img/noimage.png";
     }
     return $first_img;
+}
+
+//pagination
+function custom_pagination($total_pages, $current_page = 1, $total_counts = 0) {
+    global $wp_query;
+
+    $big = 99999999; // set a big number for the links
+
+    $paginate_links = paginate_links(array(
+        'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+        'format' => '?paged=%#%',
+        'current' => max(1, $current_page),
+        'total' => $total_pages,
+        'type' => 'array',
+        'prev_text' => __('<i class="fa fa-angle-left bounce"></i>'),
+        'next_text' => __('<i class="fa fa-angle-right bounce"></i>'),
+        'show_all' => true,
+        'end_size' => 3,
+        'mid_size' => 3
+    ));
+
+    
+?>
+    
+    <?php if ($paginate_links) : ?>
+    <div class="pager">
+        <ul class="pager__wrap">
+            <?php foreach ($paginate_links as $link) : ?>
+                <li class="pager__bt"><?php echo $link; ?></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+    <?php endif; ?>
+<?php
 }
 
 ?>

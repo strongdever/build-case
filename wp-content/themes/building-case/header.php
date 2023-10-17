@@ -62,42 +62,56 @@ $path_parts = pathinfo($path_parts);
 <?php else: ?>
 <body <?php body_class();?> id="body<?php echo $path_parts['filename']; ?>">
 <?php endif; ?>
-
+    <header data-aos="fade-down" class="<?php if(is_front_page()) { echo "top-header"; } else { echo "sub-header"; } ?>">
+      <div class="header-wrapper">
+        <span class="logo"><a href="<?php echo HOME ; ?>"><img src="<?php echo T_DIRE_URI; ?>/assets/img/logo.svg" alt="NEXT STEP"></a></span>
+        <div class="nav-wrapper">
+          <div class="top-bar">
+            <div class="desc-16-normal f-applying">現在、応募を受け付けておりません。 応募開始日は<a href="<?php echo HOME . 'news/recuit-info10170047/'; ?>">こちら</a>からご確認ください。</div>
+            <a class="yellow-btn nav-applying" href="<?php echo HOME; ?>#applying">
+              <span>調査応募へ</span>
+            </a>
+          </div>
+          <nav class="globalmenu" id="menu">
+            <ul>
+              <li><a href="<?php echo HOME . 'news'; ?>">新着情報</a></li>
+              <li><a href="<?php echo HOME . 'about'; ?>">建物事例調査募集について</a></li>
+              <li><a href="<?php echo HOME . 'incentive'; ?>">インセンティブ</a></li>
+              <li><a href="<?php echo HOME . 'flow'; ?>">募集の流れ</a></li>
+              <li><a href="<?php echo HOME . '#objects'; ?>" class="nav-objects">調査対象建物</a></li>
+              <li><a class="prett" href="<?php echo HOME . 'submissions'; ?>">提出物について</a>
+                <ul class='menus'>
+                  <li>
+                      <a class="nav-exterior-photo" href="<?php echo HOME; ?>submissions#exterior-photo">建物外観写真</a>
+                  </li>
+                  <li>
+                      <a class="nav-drawings" href="<?php echo HOME; ?>submissions#drawings">図面</a>
+                  </li>
+                  <li>
+                      <a class="nav-estimates" href="<?php echo HOME; ?>submissions#estimates">見積書（建物の見積書）</a>
+                  </li>
+                  <li>
+                      <a class="nav-specifications" href="<?php echo HOME; ?>submissions#specifications">仕様書</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="<?php echo HOME . 'case'; ?>">建物事例</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <span class="contact-btn">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_blank">Contact</a>
+          </span>
+          <div class="trigger">
+            <p class="menu-trigger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="pageWrap">
 		<div id="luxy">
-			<header data-aos="fade-down">
-				<div class="header-wrapper">
-					<span class="logo"><a href="<?php echo HOME ; ?>"><img src="<?php echo T_DIRE_URI; ?>/assets/img/logo.svg" alt="NEXT STEP"></a></span>
-          <div class="nav-wrapper">
-            <div class="top-bar">
-              <div class="desc-16-normal f-applying">現在、応募を受け付けておりません。 応募開始日は<a href="">こちら</a>からご確認ください。</div>
-              <a class="yellow-btn nav-applying" href="<?php echo HOME; ?>#applying">
-                <span>調査応募へ</span>
-              </a>
-            </div>
-            <nav class="globalmenu">
-              <ul>
-                <li><a href="<?php echo HOME . 'about'; ?>">建物事例調査募集について</a></li>
-                <li><a href="<?php echo HOME . 'incentive'; ?>">インセンティブ</a></li>
-                <li><a href="<?php echo HOME . 'flow'; ?>">建物事例調査募集流れ</a></li>
-                <li><a href="<?php echo HOME . '#objects'; ?>" class="nav-objects">調査対象建物</a></li>
-                <li><a href="<?php echo HOME . 'submissions'; ?>">提出物について</a></li>
-                <li><a href="./service/">Service</a></li>
-                <li><a href="./recruit/">Recruit</a></li>
-              </ul>
-					  </nav>
-          </div>
-					<div class="header-right">
-						<span class="contact-btn">
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_blank">Contact</a>
-						</span>
-						<div class="trigger">
-							<p class="menu-trigger">
-								<span></span>
-								<span></span>
-								<span></span>
-							</p>
-						</div>
-					</div>
-				</div>
-			</header>
