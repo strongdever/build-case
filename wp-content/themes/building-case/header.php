@@ -79,7 +79,7 @@ $path_parts = pathinfo($path_parts);
               <li><a href="<?php echo HOME . 'incentive'; ?>">インセンティブ</a></li>
               <li><a href="<?php echo HOME . 'flow'; ?>">募集の流れ</a></li>
               <li><a href="<?php echo HOME . '#objects'; ?>" class="nav-objects">調査対象建物</a></li>
-              <li><a class="prett" href="<?php echo HOME . 'submissions'; ?>">提出物について</a>
+              <li><a class="prett">提出物について</a>
                 <ul class='menus'>
                   <li>
                       <a class="nav-exterior-photo" href="<?php echo HOME; ?>submissions#exterior-photo">建物外観写真</a>

@@ -66,7 +66,11 @@
 			<div class="hamburger-overlay">
 			</div>
 		</div>
-
+		<a href="#" class="top-arrow"><img src="<?php echo T_DIRE_URI;?>/assets/img/top-arrow.svg"></a>
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js'></script>
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js?ver=6.3.1'></script>
+		<script type='text/javascript' src='https://kit.fontawesome.com/8cbdf0a85f.js'></script>
+		<script type='text/javascript' src='<?php echo T_DIRE_URI;?>/assets/js/common.js'></script>
 		<script type='text/javascript' src='<?php echo T_DIRE_URI;?>/assets/js/aos.js' id='aos-js'></script>
 		<script type='text/javascript' src='<?php echo T_DIRE_URI;?>/assets/js/set_parts.js' id='set_parts-js'></script>
 		<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js' id='slick-js'></script>

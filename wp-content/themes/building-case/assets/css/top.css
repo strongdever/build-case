@@ -782,7 +782,7 @@ header .header-wrapper .globalmenu ul li:not(:last-of-type) {
 	padding: 0 2.0rem;
 }
 
-header .header-wrapper .globalmenu ul li:not(:last-of-type) a {
+header .header-wrapper .globalmenu ul li a {
 	position: relative;
 	display: block;
 	white-space: nowrap;
@@ -892,6 +892,10 @@ header .header-wrapper .globalmenu ul li.contact-area .contact-btn a::after {
 	white-space: nowrap;
 }
 
+#menu a:hover {
+	cursor: pointer;
+}
+
 #menu ul li:hover a {
 	color: #333 !important
 }
@@ -927,15 +931,22 @@ header .header-wrapper .globalmenu ul li.contact-area .contact-btn a::after {
 	overflow: hidden;
 	position: absolute;
 	z-index: 99;
-	color: #333
+	color: #333;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background: inherit;
 }
 
 #menu ul li ul li a {
 	color: #333;
-	width: 180px;
+	width: 20rem;
 	height: 35px;
 	line-height: 35px;
-	background: #ccc;
 }
 
 #menu a.prett {
@@ -970,7 +981,15 @@ header .header-wrapper .globalmenu ul li.contact-area .contact-btn a::after {
 }
 
 #menu ul li ul li a:hover {
-	background: #BABABA;
+	background: #f3f3f3;
+}
+
+#menu ul li ul li a:hover::after {
+	width: 0;
+}
+
+#menu ul.menus a {
+	border-bottom: solid 1px #e1e1e1bf;
 }
 
 @media screen and (max-width: 600px) {
@@ -1214,8 +1233,8 @@ footer .copy {
 		bottom: 0px;
 	}
 
-	header .header-wrapper .globalmenu ul li:not(:last-of-type) a {
-		font-size: 1.7rem;
+	header .header-wrapper .globalmenu ul li a {
+		font-size: 1.6rem;
 	}
 
 	header .header-wrapper .globalmenu ul li.contact-area .contact-btn {
@@ -2777,6 +2796,28 @@ a:hover {
 	font-weight: 700;
 	line-height: 1.875;
 	color: #333;
+}
+
+.top-arrow {
+	display: block;
+    position: fixed;
+    bottom: 2.4rem;
+    right: 2.4rem;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.top-arrow:hover {
+	opacity: 0.7;
+}
+
+.top-arrow.visible {
+	opacity: 1;
+}
+
+.top-arrow img {
+	width: 4.8rem;
+	height: 4.8rem;
 }
 
 /* yellow-btn */
