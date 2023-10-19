@@ -703,6 +703,13 @@ header .header-wrapper span.logo {
 	margin-right: 20px;
 }
 
+@media screen and (max-width: 1440px) {
+	header .header-wrapper span.logo {
+		width: 28rem;
+		margin-right: 20px;
+	}
+}
+
 header .header-wrapper span.logo a {
 	display: block;
 	height: 100%;
@@ -1309,7 +1316,7 @@ footer .copy {
 
 	.common-service .common-service-wrapper ul li .contents {
 		width: calc(100% - 680px);
-		margin-top: 10rem;
+		margin-top: 7.6rem;
 	}
 
 	.common-service .common-service-wrapper ul li .item-wrapper {
@@ -1983,29 +1990,48 @@ footer .copy {
 }
 
 .top-img-wrapper .obj2 {
-	width: 64vw;
-	height: 55vw;
-	top: -5vw;
-	left: -5vw;
+	width: 50vw;
+	height: 37vw;
+	top: 6vw;
+	left: 4vw;
 	z-index: 776;
+}
+
+@media screen and (max-width: 1440px) {
+	.top-img-wrapper .obj2 {
+		width: 48vw;
+		height: 35vw;
+		top: 8vw;
+	}
 }
 
 .top-img-wrapper .obj3 {
 	width: 5vw;
 	height: 5vw;
-	top: 38vw;
-	left: -1.5vw;
-	z-index: 777;
+	top: 42vw;
+	left: 4.5vw;
+	z-index: 770;
 	background-color: #94d4ff;
 	border-radius: 50%;
 }
 
 .top-img-wrapper .obj4 {
 	width: 23vw;
-	height: 23vw;
-	top: 42vw;
-	left: -4vw;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	top: 34vw;
+	left: 17vw;
 	z-index: 775;
+}
+
+
+@media screen and (max-width: 1440px) {
+	.top-img-wrapper .obj4 {
+		width: 23vw;
+		top: 31vw;
+		left: 14vw;
+	}
 }
 
 .top-img-wrapper .obj5 {
@@ -2031,9 +2057,17 @@ footer .copy {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
-	top: 40vw;
+	top: 34vw;
 	right: 20vw;
 	z-index: 777;
+}
+
+@media screen and (max-width: 1440px) {
+	.top-img-wrapper .obj7 {
+		width: 15vw;
+		top: 35vw;
+		right: 22vw;
+	}
 }
 
 .top-img-wrapper .obj7 a {
@@ -2057,10 +2091,10 @@ footer .copy {
 }
 
 .top-img-wrapper .obj9 {
-	width: 20vw;
+	width: 18vw;
 	height: fit-content;
-	top: 20vw;
-	left: 39vw;
+	top: 21vw;
+	left: 44vw;
 	z-index: 800;
 	/* background-color: #e1f9f9; */
 	border-radius: 50%;
@@ -2073,14 +2107,25 @@ footer .copy {
 .top-img-wrapper .top-img-catch {
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 36%;
+	top: 40%;
 	left: 50%;
-	width: 800px;
+	width: 80rem;
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
 	margin: 0 auto;
 	z-index: 888;
+}
+
+@media screen and (max-width: 1440px) {
+	.top-img-wrapper .top-img-catch {
+		top: 42%;
+		width: 65rem;
+	}
+}
+
+.top-img-wrapper .top-img-catch img {
+	width: 100%;
 }
 
 .top-img-wrapper .top-img-catch h1 {
@@ -2103,7 +2148,7 @@ footer .copy {
 .top-img-wrapper .top-img-catch h1 .subtitle {
 	padding: 5px;
 	margin-bottom: 10px;
-	font-size: 3.8rem;
+	font-size: 4.8rem;
 }
 
 .top-img-wrapper .top-img-catch h1 .maintitle {
@@ -2128,23 +2173,34 @@ footer .copy {
 }
 
 .top-philosophy .top-philosophy-wrapper .contents p {
-	margin-bottom: 50px;
-	font-size: 1.6rem;
+	margin-bottom: 5rem;
 	text-align: center;
 	letter-spacing: 0.2rem;
 	line-height: 1.875;
 }
 
+.top-philosophy .top-philosophy-wrapper .contents p a {
+	font-size: 2.0rem;
+}
+
 .href-apply {
 	color: #00c2ff;
-	font-size: 1.7rem;
 	font-weight: bold;
+}
+
+.href-apply:hover {
+	color: #00c2ff;
+	opacity: 0.8;
 }
 
 .href-incentive {
 	color: red;
-	font-size: 1.7rem;
 	font-weight: bold;
+}
+
+.href-incentive:hover {
+	color: red;
+	opacity: 0.8;
 }
 
 .top-company-recruit#applying {
@@ -2242,6 +2298,7 @@ footer .copy {
 	width: -moz-fit-content;
 	width: fit-content;
 	margin: 0 auto;
+	position: relative;
 }
 
 .top-company-recruit .cr-common .checkbox-wrapper .checkbox-item {
@@ -2425,9 +2482,12 @@ input[type=checkbox]:before {
 
 	.top-img-wrapper .obj4 {
 		width: 43vw;
-		height: 43vw;
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
 		top: 48vw;
 		left: 3vw;
+		z-index: 775;
 	}
 
 	.top-img-wrapper .obj5 {
@@ -2735,6 +2795,15 @@ input[type=checkbox]:before {
 	margin-bottom: 0;
 	font-size: 1.8rem;
 	letter-spacing: 1.2px;
+	white-space: nowrap;
+}
+
+#front-page .flow-steps .step-wrapper .step-content .step-title .user {
+	color: #E04141;
+}
+
+#front-page .flow-steps .step-wrapper .step-content .step-title .manager {
+	color: #0A8300;
 }
 
 .flow-steps .step-wrapper .step-content .step-title {
@@ -2800,9 +2869,9 @@ a:hover {
 
 .top-arrow {
 	display: block;
-    position: fixed;
-    bottom: 2.4rem;
-    right: 2.4rem;
+	position: fixed;
+	bottom: 2.4rem;
+	right: 13.2rem;
 	opacity: 0;
 	transition: opacity 0.5s ease;
 }
@@ -2925,6 +2994,10 @@ a:hover {
 	scroll-margin: 12rem !important;
 }
 
+#front-page .incentive .common-title {
+	margin-bottom: 1.2rem;
+}
+
 #front-page .incentive a.btn {
 	margin-top: 4.8rem;
 }
@@ -2993,6 +3066,7 @@ a:hover {
 	-webkit-justify-content: space-around;
 	-moz-justify-content: space-around;
 	-ms-justify-content: space-around;
+	margin-bottom: 4.2rem;
 }
 
 #front-page .submissions .common-service-wrapper .left-wrapper .desc-16-normal {
@@ -3755,4 +3829,62 @@ a:hover {
 
 #front-page .common-service.case .case-list .case-item .content-wrapper span {
 	white-space: nowrap;
+}
+
+.applying-portal.pc {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: fixed;
+	bottom: 5vw;
+	right: 2.4rem;
+	row-gap: 1.2rem;
+}
+
+.applying-portal .portal-btn {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	column-gap: 1rem;
+    row-gap: 0.8rem;
+	border-radius: 6px;
+}
+
+.applying-portal.pc .portal-btn {
+	font-size: 1.6rem;
+	width: 4.8rem;
+	height: 20rem;
+	font-weight: 500;
+	line-height: 2.0;
+	letter-spacing: 0.08em;
+	-webkit-writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	-webkit-box-orient: vertical;
+}
+
+.single-portal.portal-btn {
+	color: #fff;
+	background: #2c66c5;
+}
+
+.business-portal.portal-btn {
+	color: #fff;
+	background: #f8c100;
+}
+
+.portal-btn img {
+	width: 2.6rem;
+	height: 2.6rem;
 }

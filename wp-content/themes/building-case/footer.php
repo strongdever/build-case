@@ -66,6 +66,16 @@
 			<div class="hamburger-overlay">
 			</div>
 		</div>
+		<div class="applying-portal pc">
+			<a class="single-portal portal-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_blank">
+				<img src="<?php echo T_DIRE_URI; ?>/assets/img/single-portal.png">
+				<p>戸建住宅に応募</p>
+			</a>
+			<a class="business-portal portal-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScdtNRiJd2kM1AKmFp-QuGjPEoA-sVfZYWYwif4hCoWHC6swg/viewform?pli=1&pli=1" target="_blank">
+				<img src="<?php echo T_DIRE_URI; ?>/assets/img/business-portal.png">
+				<p>事業用建物に応募</p>
+			</div>
+		</div>
 		<a href="#" class="top-arrow"><img src="<?php echo T_DIRE_URI;?>/assets/img/top-arrow.svg"></a>
 		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js'></script>
 		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js?ver=6.3.1'></script>
