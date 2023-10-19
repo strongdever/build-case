@@ -3434,6 +3434,7 @@ a:hover {
 /* <------------news content start*/
 .news-page .container {
 	background: #FFF;
+	margin-bottom: 12rem;
 }
 
 .news-page .content1100 {
@@ -3881,7 +3882,7 @@ a:hover {
 
 .business-portal.portal-btn {
 	color: #fff;
-	background: #f8c100;
+	background: #f1a900;
 }
 
 .portal-btn img {
