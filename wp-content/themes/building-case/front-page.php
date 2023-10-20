@@ -295,7 +295,7 @@
                     </div>
                 </div>
 
-                <div class="common-service objects" id="objects">
+                <!-- <div class="common-service objects" id="objects">
                     <div class="objects-wrapper">
                         <div class="common-title" data-aos="fade-up">
                             <h2 data-aos="fade-up">調査対象建物</h2>
@@ -451,7 +451,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="top-company-recruit" id="applying">
                     <div class="top-company-wrapper cr-common">
@@ -468,6 +468,12 @@
                                 </li>
                                 <li class="confirm-item">
                                     <a href="#objects">調査対象建物</a>
+                                    <div class="card-container">
+                                        <div class="card">
+                                            <p class="card__title">戸建住宅</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house001.webp" />
+                                        </div>
+                                    </div>
                                 </li>
                                 <li class="confirm-item">
                                     <a href="#submissions">提出物について</a>
@@ -499,6 +505,48 @@
                                 </li>
                                 <li class="confirm-item">
                                     <a href="#objects">調査対象建物</a>
+                                    <div class="card-container">
+                                        <div class="card">
+                                            <p class="card__title">アパート</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house002.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">マンション</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house003.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">店舗</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house004.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">事務所</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house005.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">倉庫</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house006.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">工場</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house007.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">学校</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house008.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">病院</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house009.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">福祉施設</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house010.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">宿泊施設</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/house011.webp" />
+                                        </div>
+                                    </div>
                                 </li>
                                 <li class="confirm-item">
                                     <a href="#submissions">提出物について</a>
