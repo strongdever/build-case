@@ -3228,14 +3228,15 @@ a:hover {
 
 .news-wrapper .news-item .item li .title {
 	display: block;
-	color: #333;
-	font-family: "Noto Sans CJK JP";
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 26px;
-	letter-spacing: 0.10em;
-	/* 100% */
+    position: relative;
+    color: #333;
+    font-family: "Noto Sans CJK JP";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.10em;
+    top: 0;
 }
 
 @media only screen and (max-width: 768px) {
