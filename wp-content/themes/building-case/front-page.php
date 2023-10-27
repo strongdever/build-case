@@ -20,9 +20,7 @@
                 <span class="obj6 obj luxy-el" data-speed-y="-90" data-offset="0" data-horizontal='1' data-speed-x="50"></span>
                 <span class="obj7 obj luxy-el" data-speed-y="60" data-offset="0" data-horizontal='1' data-speed-x="20"><a href="#incentive"><img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview04.webp" alt=""></a></span>
                 <span class="obj8 obj luxy-el" data-speed-y="-50" data-offset="0" data-horizontal='1' data-speed-x="40"></span>
-                <span class="obj9 obj luxy-el" data-speed-y="-60" data-offset="0" data-horizontal='1' data-speed-x="20">
-                    <a href="#incentive"><img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview02.webp"></a>
-                </span>
+                <span class="obj9 obj luxy-el" data-speed-y="-60" data-offset="0" data-horizontal='1' data-speed-x="20"><img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview02.webp"></span>
                 <div class="top-img-catch">
                     <h1 class="">
                         <img class="subtitle" src="<?php echo T_DIRE_URI; ?>/assets/img/main-text.png" alt="建物事例データを募集します。"></img>
@@ -32,93 +30,77 @@
                     <span class="sphidden"></span></p> -->
             </div>
             <div class="page-content">
-                <div class="top-philosophy">
-                    <div class="top-philosophy-wrapper content">
-                        <div class="common-title" data-aos="fade-up">
-                            <h2>建物事例調査募集について</h2>
-                            <!-- <span>フィロソフィー</span> -->
-                        </div>
-                        <div class="contents" data-aos="fade-up">
-                            <!-- <h3>建築の未来を共に創りましょう！</h3> -->
-                            <p class="desc-20-normal">
-                            弊社では、建築に関する事例データを募集しています。<br>
-                            建物の設計やデザインの参考としてではなく、主に建設計画の概算金額把握や既存建物の<br>価値判断に活用されています。<br>
-                            プロフェッショナルな方々（不動産鑑定士、設計・建設会社、リートなど）からのご応募お待ちしています。<br>
-                            一般の方でも興味を持たれた方は是非ご応募いただけます。<br>
-                            デザインに関する情報よりも、主に金額の把握が重視されています。<br>事例データは類似の建物を探し、価値判断の基準とするために活用されています。<br><br>
-                            素晴らしい<a href="#incentive" class="href-incentive nav-incentive">インセンティブ</a>が待っています！<br>
-                            当選された方には、なんと5000～10000円相当の<br>Amazonギフト券をプレゼントいたします。<br>
-                            ぜひお気軽にご<a href="#applying" class="href-apply nav-applying">応募</a>ください。<br>
-                            </p>
-                        </div>
-                        <span class="viewmore-btn" data-aos="fade-out">
-                            <p>詳細はこちら</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="common-service incentive" id="incentive">
+                <div class="common-service flow aboutus" id="aboutus">
                     <div class="common-service-wrapper content content1100">
                         <div class="common-title" data-aos="fade-up">
-                            <h2>インセンティブ</h2>
-                            <span>Incentive</span>
+                            <h2>建物事例調査募集について</h2>
+                            <span>About Us</span>
                         </div>
-                        <ul>
-                            <li data-aos="fade-up">
-                                <div class="item-wrapper">
-                                    <figure class="luxy-el" data-speed-y="-3" data-offset="150"><a href="<?php echo HOME . 'incentive'; ?>"><img src="<?php echo T_DIRE_URI; ?>/assets/img/incentive01.webp" alt="" class="ofi-img"></a></figure>
-                                    <div class="contents">
-                                        <h4>1. インセンティブA（10,000円相当の報酬）</h4>
-                                        <p>
-                                            -資料が全て提出されており、抜けが無い事。<br>
-                                            <strong>
-                                            &nbsp;&nbsp;見積書に科目毎（以下参照）の金額が明確に記載されているもの総額、基礎、躯体、内装、外装、設備、諸経費等がそれぞれ記載されており、<br>
-                                            &nbsp;&nbsp;それぞれの金額が確認できる事。
-                                            </strong>
-                                        </p>
-
-                                        <h4>2. インセンティブB（5,000円相当の報酬）</h4>
-                                        <p>
-                                            資料が全て提出されており、抜けが無い事。<br>
-                                            <strong>
-                                                見積に科目毎の価格が出ていない、確認できないもの。一括見積。<br>
-                                                建物本体価格の内訳が（基礎、躯体、内装、外装、設備等）に分かれていない見積<br>
-                                                （一部のハウスメーカ等にあるような平米単価＋オプションの見積含む）
-                                            </strong>
-                                        </p>
-
-                                        <!-- <h4>3. 適用外（報酬なし）</h4>
-                                        <p>
-                                            資料がそろっていない場合。<br>
-                                            資料に不備があり、再提出いただけない場合。<br>
-                                            以前に、当会主催の同様の調査にて同じ建物情報が提供されている場合。
-                                        </p> -->
-                                        <a class="btn" href="<?php echo HOME . 'incentive'; ?>">
-                                            <span class="viewmore-btn">
-                                                <p>詳細はこちら</p>
-                                            </span>
-                                        </a>
-                                    </div>
+                        <p class="desc-18-normal" data-aos="fade-up">
+                            建設物価調査会は、公共に寄与することを目的として、建物資料集の基礎資料収集を行っています。<br>
+                            ご提供いただいた資料は、建物の統計データおよび「事例データ」を作成するための基礎資料として利用させていただきます。
+                        </p>
+                        <p class="desc-18-normal header-text" data-aos="fade-up">
+                            一般の方で、自身が家を建てた経験がある方、建物を建てるお仕事をされている方（設計者、工務店、ゼネコンなど）<br>
+                            ぜひお気軽にご<a href="#applying" class="href-apply nav-applying">応募</a>ください。<br>
+                            当選されたデータ提供者の方には、なんと5000～10000円相当のAmazonギフト券をプレゼントさせていただきます。
+                        </p>
+                        <div class="content-wrapper">
+                            <div class="contents left-wrapper" data-aos="fade-up">
+                                <div class="usage-part">
+                                    <a href="<?php echo HOME . 'aboutus/#usage'; ?>" class="nav-usage"><p class="top-subtitle title-26-bold">データの利用用途</p></a>
+                                    <p class="desc-16-normal">
+                                        ・提供資料を基に、実際に建築された建物の外観、図面（間取り）、価格等の情報を整理した基礎資料として各種統計データ、また掲載例のような事例データ、建物調査分析の基礎資料として活用いたします。<br>
+                                        ・ご提出資料をそのまま公開することはございません。<br>
+                                        （見積、仕様書のカタチでの公開は致しません。写真に関しては必要なぼかし処理、トリミング等を行ったうえで公開する場合がございます）
+                                    </p>
                                 </div>
-                            </li>
-                            <!-- <li class="img_position" data-aos="fade-up">
-                                <a href="https://www.nextstep-tec.com/service#support">
-                                    <figure class="luxy-el" data-speed-y="-3" data-offset="150"><img src="https://www.nextstep-tec.com/sys/wp-content/themes/next-step/common/images/service2.jpg" alt="" class="ofi-img"></figure>
-                                    <div class="contents">
-                                        <h4>システム開発支援</h4>
-                                        <p>
-                                            webアプリケーションの設計・開発、インフラの設計・構築・保守、業務運用設計・開発、C/Sシステム、汎用機の環境作成から開発、スマートフォンアプリケーションの設計・開発サイトのデザインなどにおいて支援いたします。
-                                        </p>
-                                        <span class="viewmore-btn">
-                                            <p>more</p>
-                                        </span>
-                                    </div>
-                                </a>
-                            </li> -->
-                        </ul>
+                                <div class="privacy-part">
+                                    <a href="<?php echo HOME . 'aboutus/#privacy'; ?>"  class="nav-privacy"><p class="top-subtitle title-26-bold">個人情報の扱い</p></a>
+                                    <p class="desc-16-normal">
+                                        ・個人情報は本調査のインセンティブ付与及び、資料に対する質問・確認等の為だけに利用いたします。<br>
+                                        ・ご提供いただいた個人情報は、当調査を実施運営する目的にのみ使用し、ご本人の事前の同意を得ることなく、他の目的のために利用することはありません。<br>
+                                        （個人情報を営業的行為等で、使用することは一切ございません。）<br>
+                                        ・見積書等の書類上の個人情報は墨塗等して消した状態で送付いただいてかまいません。
+                                    </p>
+                                </div>
+                                <div class="picture-part">
+                                    <a href="<?php echo HOME . 'aboutus/#picture'; ?>"  class="nav-picture"><p class="top-subtitle title-26-bold">写真の扱い</p></a>
+                                    <p class="desc-16-normal">
+                                        ・写真は、パース（掲載例の建物の絵）を作成する際の基礎資料に利用いたします。<br>
+                                        ・一部の写真は、“建物資料集”実際の例として利用いたします。
+                                    </p>
+                                </div>
+                                <div class="others-part">
+                                    <a href="<?php echo HOME . 'aboutus/#others'; ?>"  class="nav-others"><p class="top-subtitle title-26-bold">その他</p></a>
+                                    <p class="desc-16-normal">
+                                        ・ご提供いただいた資料は、返却いたしません。<br>
+                                        ・ご提供いただける情報（写真含む）は、権利の全てが情報提供者様に帰属しているもの、または、当該権利者(建物所有者等)様より、事前許諾・承認を受けたうえで、提供されるものとします。<br>
+                                        ・提供された情報及び写真は提供時点でその使用権は当会が有し、分析用のデータ、事例データ、事例データの広告等として利用できるものとします。<br>
+                                        ・本調査にご参加され、資料をご提供された場合、当会に本資料の利用を許可（利用許諾）したものとします。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" flow-wrapper right-wrapper" data-aos="fade-up" id="flow">
+                                <a href="<?php echo HOME . 'flow'; ?>"><p class="top-subtitle title-26-bold">募集の流れ</p></a>
+                                <p class="desc-16-normal">
+                                調査内容の説明をよく読み、「事例調査への参加」より必要事項を記入し、応募してください。<br>
+                                容を確認の上、調査へご協力をお願いする方には、やり取りできるメールアドレスの確認も踏まえ、ご記入いただきましたメールアドレスに対して、データアップロード用のURLをお送りいたします。
+                                </p>
+                                <p class="desc-16-normal">
+                                【事例調査】参加の可否は、ご記入いただきました内容より、必要とされている事例データであるか？等を加味して建設物価調査会にて判断させていただきます。
+                                </p>
+                                <img src="<?php echo T_DIRE_URI; ?>/assets/img/flow01.webp">
+                            </div>
+                        </div>
+                        <!-- <a href="<?php echo HOME . 'flow'; ?>">
+                            <span class="viewmore-btn">
+                                <p>詳細はこちら</p>
+                            </span>
+                        </a> -->
                     </div>
-                    <img class="background" src="<?php echo T_DIRE_URI; ?>/assets/img/incentive-bg.webp">
                 </div>
-                <div class="common-service flow" id="flow">
+                <!-- <div class="common-service flow" id="flow">
                     <div class="common-service-wrapper content content1100">
                         <div class="common-title" data-aos="fade-up">
                             <h2>建物事例調査募集流れ</h2>
@@ -234,7 +216,7 @@
                             </span>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 
                 <div class="common-service submissions" id="submissions">
                     <div class="common-service-wrapper content content1100">
@@ -288,11 +270,74 @@
                             </div>
                         </div>
                         <span class="viewmore-btn">
-                            <a href="<?php echo HOME . 'flow'; ?>" data-aos="fade-up">
+                            <a href="<?php echo HOME . 'flow'; ?>">
                                 <p>詳細はこちら</p>
                             </a>
                         </span>
                     </div>
+                </div>
+
+                <div class="common-service incentive" id="incentive">
+                    <div class="common-service-wrapper content content1100">
+                        <div class="common-title" data-aos="fade-up">
+                            <h2>インセンティブ</h2>
+                            <span>Incentive</span>
+                        </div>
+                        <ul>
+                            <li data-aos="fade-up">
+                                <div class="item-wrapper">
+                                    <figure class="luxy-el" data-speed-y="-3" data-offset="150"><a href="<?php echo HOME . 'incentive'; ?>"><img src="<?php echo T_DIRE_URI; ?>/assets/img/incentive01.webp" alt="" class="ofi-img"></a></figure>
+                                    <div class="contents">
+                                        <h4>1. インセンティブA（10,000円相当の報酬）</h4>
+                                        <p>
+                                            -資料が全て提出されており、抜けが無い事。<br>
+                                            <strong>
+                                            &nbsp;&nbsp;見積書に科目毎（以下参照）の金額が明確に記載されているもの総額、基礎、躯体、内装、外装、設備、諸経費等がそれぞれ記載されており、<br>
+                                            &nbsp;&nbsp;それぞれの金額が確認できる事。
+                                            </strong>
+                                        </p>
+
+                                        <h4>2. インセンティブB（5,000円相当の報酬）</h4>
+                                        <p>
+                                            資料が全て提出されており、抜けが無い事。<br>
+                                            <strong>
+                                                見積に科目毎の価格が出ていない、確認できないもの。一括見積。<br>
+                                                建物本体価格の内訳が（基礎、躯体、内装、外装、設備等）に分かれていない見積<br>
+                                                （一部のハウスメーカ等にあるような平米単価＋オプションの見積含む）
+                                            </strong>
+                                        </p>
+
+                                        <!-- <h4>3. 適用外（報酬なし）</h4>
+                                        <p>
+                                            資料がそろっていない場合。<br>
+                                            資料に不備があり、再提出いただけない場合。<br>
+                                            以前に、当会主催の同様の調査にて同じ建物情報が提供されている場合。
+                                        </p> -->
+                                        <a class="btn" href="<?php echo HOME . 'incentive'; ?>">
+                                            <span class="viewmore-btn">
+                                                <p>詳細はこちら</p>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="img_position" data-aos="fade-up">
+                                <a href="https://www.nextstep-tec.com/service#support">
+                                    <figure class="luxy-el" data-speed-y="-3" data-offset="150"><img src="https://www.nextstep-tec.com/sys/wp-content/themes/next-step/common/images/service2.jpg" alt="" class="ofi-img"></figure>
+                                    <div class="contents">
+                                        <h4>システム開発支援</h4>
+                                        <p>
+                                            webアプリケーションの設計・開発、インフラの設計・構築・保守、業務運用設計・開発、C/Sシステム、汎用機の環境作成から開発、スマートフォンアプリケーションの設計・開発サイトのデザインなどにおいて支援いたします。
+                                        </p>
+                                        <span class="viewmore-btn">
+                                            <p>more</p>
+                                        </span>
+                                    </div>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <img class="background" src="<?php echo T_DIRE_URI; ?>/assets/img/incentive-bg.webp">
                 </div>
 
                 <!-- <div class="common-service objects" id="objects">
@@ -459,7 +504,7 @@
                             <div class="common-title">
                                 <h2>戸建住宅</h2>
                             </div>
-                            <p class="desc-16-normal top-desc">ここから3階建て以下の戸建所て建物事例調査にご応募ください。<br>
+                            <p class="desc-16-normal top-desc">住宅用の建物、2世帯（複数世帯）住宅、アパート・マンション併用、事務所併用、店舗併用等<br>
                             応募前に必ず以下の内容をご確認お願いします。
                             </p>
                             <ul class="confirm-list desc-16-normal">
@@ -470,8 +515,20 @@
                                     <a href="#objects">調査対象建物</a>
                                     <div class="card-container">
                                         <div class="card">
-                                            <p class="card__title">戸建住宅</p>
+                                            <p class="card__title">住宅用の建物</p>
                                             <img src="<?php echo T_DIRE_URI; ?>/assets/img/house001.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">2世帯（複数世帯）住宅</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/2世帯（複数世帯）住宅.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">アパート・マンション併用</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/アパート・マンション併用.webp" />
+                                        </div>
+                                        <div class="card">
+                                            <p class="card__title">事務所併用</p>
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/事務所併用.webp" />
                                         </div>
                                     </div>
                                 </li>
@@ -496,7 +553,7 @@
                             <div class="common-title">
                                 <h2>事業用建物</h2>
                             </div>
-                            <p class="desc-16-normal top-desc">ここから3階建て以上の事業用建物事例調査にご応募ください。<br>
+                            <p class="desc-16-normal top-desc">主として事業の要に供する建物。（一般住宅以外です）<br>
                             応募前に必ず以下の内容をご確認お願いします。
                             </p>
                             <ul class="confirm-list desc-16-normal">
@@ -614,7 +671,7 @@
                     </div>
                 </div>
 
-                <div class="common-service case">
+                <!-- <div class="common-service case">
                     <div class="content content1100">
                         <div class="common-title" data-aos="fade-up">
                             <h2>募集事例</h2>
@@ -700,7 +757,7 @@
                             </span>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </main>
@@ -747,3 +804,17 @@
     </script>
 
 <?php get_footer(); ?>
+
+
+
+//abouus page
+// 弊社では、建築に関する事例データを募集しています。
+// 建物の設計やデザインの参考としてではなく、主に建設計画の概算金額把握や既存建物の価値判断に活用されています。
+// プロフェッショナルな方々（不動産鑑定士、設計・建設会社、リートなど）からのご応募お待ちしています。
+// 一般の方でも興味を持たれた方は是非ご応募いただけます。
+// デザインに関する情報よりも、主に金額の把握が重視されています。
+// 事例データは類似の建物を探し、価値判断の基準とするために活用されています。
+
+// 当選された方には、なんと5000～10000円相当の
+// Amazonギフト券をプレゼントいたします。
+// ぜひお気軽にご応募ください。

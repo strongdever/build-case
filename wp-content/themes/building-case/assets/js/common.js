@@ -73,7 +73,7 @@
                 }, 300);
             }
         });
-        
+
         //sub menu ------->
 
         $('.nav-exterior-photo').click(function () {
@@ -114,6 +114,38 @@
 
         $('.nav-applying').click(function () {
             var target = $('#applying');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 120
+                }, 300);
+            }
+        });
+        $('.nav-usage').click(function () {
+            var target = $('#usage');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 120
+                }, 300);
+            }
+        });
+        $('.nav-privacy').click(function () {
+            var target = $('#privacy');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 120
+                }, 300);
+            }
+        });
+        $('.nav-picture').click(function () {
+            var target = $('#picture');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 120
+                }, 300);
+            }
+        });
+        $('.nav-others').click(function () {
+            var target = $('#others');
             if (target.length) {
                 $('html, body').animate({
                     scrollTop: target.offset().top - 120

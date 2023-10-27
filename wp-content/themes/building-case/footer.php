@@ -50,7 +50,16 @@
 						<ul>
 							<li><strong>その他</strong></li>
 							<li>
-								<a href="<?php echo HOME; ?>rule-privacy">資料の利用方法</a>
+								<a href="<?php echo HOME . 'aboutus/#usage'; ?>" class="nav-usage">データの利用用途</a>
+							</li>
+							<li>
+								<a href="<?php echo HOME . 'aboutus/#privacy'; ?>" class="nav-privacy">個人情報の扱い</a>
+							</li>
+							<li>
+								<a href="<?php echo HOME . 'aboutus/#picture'; ?>" class="nav-picture">写真の扱い</a>
+							</li>
+							<li>
+								<a href="<?php echo HOME . 'aboutus/#others'; ?>" class="nav-others">その他</a>
 							</li>
 							<li>
 								<a href="<?php echo HOME; ?>regarding-point">応募に際しての注意点</a>
@@ -77,6 +86,7 @@
 			</div>
 		</div>
 		<a href="#" class="top-arrow"><img src="<?php echo T_DIRE_URI;?>/assets/img/top-arrow.svg"></a>
+
 		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js'></script>
 		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js?ver=6.3.1'></script>
 		<script type='text/javascript' src='https://kit.fontawesome.com/8cbdf0a85f.js'></script>

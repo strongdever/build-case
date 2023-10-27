@@ -661,6 +661,12 @@ header {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (max-width: 1440px) {
+	header {
+		height: 9.8rem;
+	}
+}
+
 header.sub-header {
 	background: #FFF;
 }
@@ -870,6 +876,12 @@ header .header-wrapper .globalmenu ul li.contact-area .contact-btn a::after {
 /*<---------- sub menu */
 #menu {
 	height: 45px;
+}
+
+@media screen and (max-width: 1440px) {
+	#menu {
+		height: 3.6rem;
+	}
 }
 
 #menu ul,
@@ -2053,20 +2065,20 @@ footer .copy {
 }
 
 .top-img-wrapper .obj7 {
-	width: 17vw;
+	width: 19vw;
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
 	top: 34vw;
-	right: 20vw;
-	z-index: 777;
+	right: 18vw;
+	z-index: 900;
 }
 
 @media screen and (max-width: 1440px) {
 	.top-img-wrapper .obj7 {
-		width: 15vw;
-		top: 35vw;
-		right: 22vw;
+		width: 18vw;
+		top: 33vw;
+		right: 19vw;
 	}
 }
 
@@ -2094,7 +2106,7 @@ footer .copy {
 	width: 18vw;
 	height: fit-content;
 	top: 21vw;
-	left: 44vw;
+	left: 49vw;
 	z-index: 800;
 	/* background-color: #e1f9f9; */
 	border-radius: 50%;
@@ -2107,7 +2119,7 @@ footer .copy {
 .top-img-wrapper .top-img-catch {
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 40%;
+	top: 47%;
 	left: 50%;
 	width: 80rem;
 	height: -webkit-fit-content;
@@ -2119,7 +2131,7 @@ footer .copy {
 
 @media screen and (max-width: 1440px) {
 	.top-img-wrapper .top-img-catch {
-		top: 42%;
+		top: 50%;
 		width: 65rem;
 	}
 }
@@ -2859,17 +2871,27 @@ input[type=checkbox]:before {
 }
 
 a:hover {
-	color: #3472A1
+	color: #0e81d3;
 }
 
 .desc-16-normal {
+	margin-top: 1.2rem;
 	font-size: 1.6rem;
 	font-weight: 500;
 	line-height: 1.875;
 	color: #333;
 }
 
+.desc-18-normal {
+	margin-top: 1.2rem;
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 1.875;
+	color: #333;
+}
+
 .desc-16-bold {
+	margin-top: 1.2rem;
 	font-size: 1.6rem;
 	font-weight: 700;
 	line-height: 1.875;
@@ -2877,6 +2899,7 @@ a:hover {
 }
 
 .desc-20-normal {
+	margin-top: 1.2rem;
 	font-size: 2.0rem;
 	font-weight: 500;
 	line-height: 1.875;
@@ -2884,7 +2907,15 @@ a:hover {
 }
 
 .desc-20-bold {
+	margin-top: 1.2rem;
 	font-size: 2.0rem;
+	font-weight: 700;
+	line-height: 1.875;
+	color: #333;
+}
+
+.title-26-bold {
+	font-size: 2.6rem;
 	font-weight: 700;
 	line-height: 1.875;
 	color: #333;
@@ -3228,15 +3259,15 @@ a:hover {
 
 .news-wrapper .news-item .item li .title {
 	display: block;
-    position: relative;
-    color: #333;
-    font-family: "Noto Sans CJK JP";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.10em;
-    top: 0;
+	position: relative;
+	color: #333;
+	font-family: "Noto Sans CJK JP";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0.10em;
+	top: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -3824,6 +3855,83 @@ a:hover {
 	margin-bottom: 6.4rem;
 }
 
+#front-page .aboutus .common-title {
+	margin-bottom: 4.8rem;
+}
+
+#front-page .aboutus .header-text {
+	margin-bottom: 2.6rem;
+}
+
+#front-page .aboutus br {
+	height: 1.2rem;
+}
+
+#front-page .aboutus .content-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-column-gap: 4.8rem;
+	-moz-column-gap: 4.8rem;
+	column-gap: 4.8rem;
+}
+
+#front-page .aboutus .content-wrapper .left-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-row-gap: 2.2rem;
+	-moz-row-gap: 2.2rem;
+	row-gap: 2.2rem;
+	width: calc(50% - 2.4rem);
+}
+
+#front-page .aboutus .content-wrapper .right-wrapper {
+	width: calc(50% - 2.4rem);
+}
+
+#front-page .aboutus .content-wrapper .right-wrapper img {
+	width: 100%;
+	margin-top: 2.4rem;
+}
+
+#front-page .aboutus .content-wrapper a {
+	display: block;
+	position: relative;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	transition: all 0.2s;
+}
+
+#front-page .aboutus .content-wrapper a:hover p {
+	color: #0e81d3;
+}
+
+#front-page .aboutus .content-wrapper a::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	width: 0px;
+	height: 2px;
+	background: #0e81d3;
+	transition: all 0.4s;
+}
+
+#front-page .aboutus .content-wrapper a:hover::after {
+	width: 100%
+}
+
+/* #front-page .aboutus .content-wrapper .desc-16-bold {
+	margin-top: 0.6rem;
+} */
+
 #front-page .common-service.case .case-list .case-item figure {
 	aspect-ratio: 5 / 4;
 	margin-bottom: 1.2rem;
@@ -3856,6 +3964,15 @@ a:hover {
 	white-space: nowrap;
 }
 
+#front-page #flow {
+	scroll-margin-top: 4rem;
+	scroll-margin-block-start: 4rem;
+	scroll-margin-inline-start: 4rem;
+	-ms-scroll-margin-top: 4rem;
+	scroll-margin: 4rem;
+	padding-top: 12rem;
+}
+
 .applying-portal.pc {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -3866,7 +3983,7 @@ a:hover {
 	flex-direction: column;
 	position: fixed;
 	bottom: 5vw;
-	right: 2.4rem;
+	right: 0.6rem;
 	row-gap: 1.2rem;
 }
 
@@ -3918,6 +4035,9 @@ a:hover {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	width: 100%;
 }
 
@@ -3944,7 +4064,9 @@ a:hover {
 .card .card__title {
 	display: block;
 	position: absolute;
-	color: #FFF;
+	color: #e9de4c !important;
+	text-align: start !important;
+	line-height: 24px !important;
 	top: 0.6rem;
 	left: 0.9rem;
 	font-size: 1.5rem;
