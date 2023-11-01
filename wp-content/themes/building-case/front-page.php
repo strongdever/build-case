@@ -18,7 +18,56 @@
                 <span class="obj4 obj luxy-el" data-speed-y="80" data-offset="0" data-horizontal='1' data-speed-x="-80"><img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview05.webp" alt=""></span>
                 <span class="obj5 obj luxy-el" data-speed-y="-20" data-offset="0" data-horizontal='1' data-speed-x="30"><img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview03.webp" alt=""></span>
                 <span class="obj6 obj luxy-el" data-speed-y="-90" data-offset="0" data-horizontal='1' data-speed-x="50"></span>
-                <span class="obj7 obj luxy-el" data-speed-y="60" data-offset="0" data-horizontal='1' data-speed-x="20"><a href="#incentive"><img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview04.webp" alt=""></a></span>
+                <span class="obj7 obj luxy-el" data-speed-y="60" data-offset="0" data-horizontal='1' data-speed-x="20"><a href="#incentive">
+                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview04.webp" alt=""></a>
+                    <div class="glow-wrapper">
+                        <div class="glow"></div>
+                        <div class="particles">
+
+                            <div class="rotate">
+
+                                <div class="angle">
+                                    <div class="size">
+                                        <div class="position">
+                                            <div class="pulse">
+                                                <div class="particle">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="angle">
+                                    <div class="size">
+                                        <div class="position">
+                                            <div class="pulse">
+                                                <div class="particle">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="angle">
+                                    <div class="size">
+                                        <div class="position">
+                                            <div class="pulse">
+                                                <div class="particle">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </span>
                 <span class="obj8 obj luxy-el" data-speed-y="-50" data-offset="0" data-horizontal='1' data-speed-x="40"></span>
                 <span class="obj9 obj luxy-el" data-speed-y="-60" data-offset="0" data-horizontal='1' data-speed-x="20"><img src="<?php echo T_DIRE_URI; ?>/assets/img/mainview02.webp"></span>
                 <div class="top-img-catch">
@@ -29,194 +78,141 @@
                 <!-- <p class="move-text">建物事例データを募集中！あなたの建物の写真や図面を共有していただければ、素晴らしいインセンティブが待っています！当選された方には、なんと5000～10000万円相当のAmazonギフト券をプレゼントいたします。
                     <span class="sphidden"></span></p> -->
             </div>
+
             <div class="page-content">
-                <div class="common-service flow aboutus" id="aboutus">
-                    <div class="common-service-wrapper content content1100">
+                <div class="common-service aboutus" id="aboutus">
+                    <div class="common-service-wrapper content content1100" data-aos="fade-up">
                         <div class="common-title" data-aos="fade-up">
                             <h2>建物事例調査募集について</h2>
                             <span>About Us</span>
                         </div>
-                        <p class="desc-18-normal" data-aos="fade-up">
-                            建設物価調査会は、公共に寄与することを目的として、建物資料集の基礎資料収集を行っています。<br>
-                            ご提供いただいた資料は、建物の統計データおよび「事例データ」を作成するための基礎資料として利用させていただきます。
+                        <p class="desc-18-normal">
+                        弊社では、建築に関する事例データを募集しています。
                         </p>
-                        <p class="desc-18-normal header-text" data-aos="fade-up">
-                            一般の方で、自身が家を建てた経験がある方、建物を建てるお仕事をされている方（設計者、工務店、ゼネコンなど）<br>
-                            ぜひお気軽にご<a href="#applying" class="href-apply nav-applying">応募</a>ください。<br>
-                            当選されたデータ提供者の方には、なんと5000～10000円相当のAmazonギフト券をプレゼントさせていただきます。
+                        <p class="desc-18-normal rect-purpose">
+                            <span>【調査目的】</span>
+                            この調査は、一般財団法人 建設物価調査会(<a href="https://www.kensetu-bukka.or.jp">https://www.kensetu-bukka.or.jp</a>)が公共に寄与することを目的として、 <br class="pc">“建物資料集”の基礎資料収集のため実施するものです。<br>
+                            ご提供いただいた資料は、建物の統計データおよび建物「事例データ」を作成するための基礎資料として利用させていただきます。
                         </p>
-                        <div class="content-wrapper">
-                            <div class="contents left-wrapper" data-aos="fade-up">
-                                <div class="usage-part">
-                                    <a href="<?php echo HOME . 'aboutus/#usage'; ?>" class="nav-usage"><p class="top-subtitle title-26-bold">データの利用用途</p></a>
-                                    <p class="desc-16-normal">
-                                        ・提供資料を基に、実際に建築された建物の外観、図面（間取り）、価格等の情報を整理した基礎資料として各種統計データ、また掲載例のような事例データ、建物調査分析の基礎資料として活用いたします。<br>
-                                        ・ご提出資料をそのまま公開することはございません。<br>
-                                        （見積、仕様書のカタチでの公開は致しません。写真に関しては必要なぼかし処理、トリミング等を行ったうえで公開する場合がございます）
-                                    </p>
-                                </div>
-                                <div class="privacy-part">
-                                    <a href="<?php echo HOME . 'aboutus/#privacy'; ?>"  class="nav-privacy"><p class="top-subtitle title-26-bold">個人情報の扱い</p></a>
-                                    <p class="desc-16-normal">
-                                        ・個人情報は本調査のインセンティブ付与及び、資料に対する質問・確認等の為だけに利用いたします。<br>
-                                        ・ご提供いただいた個人情報は、当調査を実施運営する目的にのみ使用し、ご本人の事前の同意を得ることなく、他の目的のために利用することはありません。<br>
-                                        （個人情報を営業的行為等で、使用することは一切ございません。）<br>
-                                        ・見積書等の書類上の個人情報は墨塗等して消した状態で送付いただいてかまいません。
-                                    </p>
-                                </div>
-                                <div class="picture-part">
-                                    <a href="<?php echo HOME . 'aboutus/#picture'; ?>"  class="nav-picture"><p class="top-subtitle title-26-bold">写真の扱い</p></a>
-                                    <p class="desc-16-normal">
-                                        ・写真は、パース（掲載例の建物の絵）を作成する際の基礎資料に利用いたします。<br>
-                                        ・一部の写真は、“建物資料集”実際の例として利用いたします。
-                                    </p>
-                                </div>
-                                <div class="others-part">
-                                    <a href="<?php echo HOME . 'aboutus/#others'; ?>"  class="nav-others"><p class="top-subtitle title-26-bold">その他</p></a>
-                                    <p class="desc-16-normal">
-                                        ・ご提供いただいた資料は、返却いたしません。<br>
-                                        ・ご提供いただける情報（写真含む）は、権利の全てが情報提供者様に帰属しているもの、または、当該権利者(建物所有者等)様より、事前許諾・承認を受けたうえで、提供されるものとします。<br>
-                                        ・提供された情報及び写真は提供時点でその使用権は当会が有し、分析用のデータ、事例データ、事例データの広告等として利用できるものとします。<br>
-                                        ・本調査にご参加され、資料をご提供された場合、当会に本資料の利用を許可（利用許諾）したものとします。
-                                    </p>
-                                </div>
-                            </div>
-                            <div class=" flow-wrapper right-wrapper" data-aos="fade-up" id="flow">
-                                <a href="<?php echo HOME . 'flow'; ?>"><p class="top-subtitle title-26-bold">募集の流れ</p></a>
-                                <p class="desc-16-normal">
-                                調査内容の説明をよく読み、「事例調査への参加」より必要事項を記入し、応募してください。<br>
-                                容を確認の上、調査へご協力をお願いする方には、やり取りできるメールアドレスの確認も踏まえ、ご記入いただきましたメールアドレスに対して、データアップロード用のURLをお送りいたします。
-                                </p>
-                                <p class="desc-16-normal">
-                                【事例調査】参加の可否は、ご記入いただきました内容より、必要とされている事例データであるか？等を加味して建設物価調査会にて判断させていただきます。
-                                </p>
-                                <img src="<?php echo T_DIRE_URI; ?>/assets/img/flow01.webp">
-                            </div>
-                        </div>
-                        <!-- <a href="<?php echo HOME . 'flow'; ?>">
-                            <span class="viewmore-btn">
-                                <p>詳細はこちら</p>
-                            </span>
-                        </a> -->
+                        <p class="desc-18-normal">
+                        一般の戸建住宅を建てた方のご応募をお待ちしております。<br>
+                        また、建物を建てるお仕事をされている工務店様、設計事務所様の応募も大歓迎です。<br>
+                        是非ご協力をお願いいたします。
+                        </p>
+                        <p class="desc-18-normal">
+                        当選され、情報を過不足なくご提供いただけました場合、もれなく、5000~10000円のAmazonギフト券をご提供いたします。
+                        </p>
+                        <p class="desc-18-normal footer-text">
+                        まずは、お気軽に<a href="#applying" class="href-apply nav-applying">応募</a>下さい。
+                        </p>
                     </div>
                 </div>
-                <!-- <div class="common-service flow" id="flow">
+                <div class="common-service flow" id="flow">
                     <div class="common-service-wrapper content content1100">
                         <div class="common-title" data-aos="fade-up">
                             <h2>建物事例調査募集流れ</h2>
                             <span>Flow</span>
                         </div>
-                        <ul>
-                            <li data-aos="fade-up">
-                                <div class="item-wrapper">
-                                    <div class="contents">
-                                        <p class="desc-16-normal step-head-text">当社の建物事例調査応募サイトでは、以下の流れで業務が進行します。</p>
-                                        <ul class="flow-steps">
-                                            <li class="each-step">
-                                                <div class="step-wrapper">
-                                                    <div class="step-number">
-                                                        <div class="label">STEP</div>
-                                                        <div class="num">01</div>
-                                                    </div>
-                                                    <div class="step-content">
-                                                        <h3 class="step-title">
-                                                        <span class="user">【応募者】</span>調査協力に<a href="#applying" class="href-apply nav-applying">応募</a>していただく
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="each-step">
-                                                <div class="step-wrapper">
-                                                    <div class="step-number">
-                                                        <div class="label">STEP</div>
-                                                        <div class="num">02</div>
-                                                    </div>
-                                                    <div class="step-content">
-                                                        <h3 class="step-title">
-                                                        <span class="manager">【物調】</span>応募内容の確認と当選者への連絡
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="each-step">
-                                                <div class="step-wrapper">
-                                                    <div class="step-number">
-                                                        <div class="label">STEP</div>
-                                                        <div class="num">03</div>
-                                                    </div>
-                                                    <div class="step-content">
-                                                        <h3 class="step-title">
-                                                        <span class="user">【応募者】</span>提出物のアップロード
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="each-step">
-                                                <div class="step-wrapper">
-                                                    <div class="step-number">
-                                                        <div class="label">STEP</div>
-                                                        <div class="num">04</div>
-                                                    </div>
-                                                    <div class="step-content">
-                                                        <h3 class="step-title">
-                                                        <span class="manager">【物調】</span>提出物の確認、必要に応じて追加、修正提出依頼
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="each-step">
-                                                <div class="step-wrapper">
-                                                    <div class="step-number">
-                                                        <div class="label">STEP</div>
-                                                        <div class="num">05</div>
-                                                    </div>
-                                                    <div class="step-content">
-                                                        <h3 class="step-title">
-                                                        <span class="user">【応募者】</span>追加の提出物のアップロード
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="each-step">
-                                                <div class="step-wrapper">
-                                                    <div class="step-number">
-                                                        <div class="label">STEP</div>
-                                                        <div class="num">06</div>
-                                                    </div>
-                                                    <div class="step-content">
-                                                        <h3 class="step-title">
-                                                        STEP04とSTEP05を繰り返し、調査を完了させる。
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="each-step">
-                                                <div class="step-wrapper">
-                                                    <div class="step-number">
-                                                        <div class="label">STEP</div>
-                                                        <div class="num">07</div>
-                                                    </div>
-                                                    <div class="step-content">
-                                                        <h3 class="step-title">
-                                                        <span class="manager">【物調】</span>調査完了と<a href="#incentive" class="href-incentive nav-incentive">インセンティブ</a>の送付
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            
-                                        </ul>
+                        <p class="desc-16-normal step-head-text" data-aos="fade-up">調査内容をよく読み、必要事項を記入して【<a href="#applying" class="href-apply nav-applying">応募</a>】してください。</p>
+                        <div class="content-wrapper">
+                            <ul class="flow-steps" data-aos="fade-up">
+                                <li class="each-step">
+                                    <div class="step-wrapper">
+                                        <div class="step-number">
+                                            <div class="label">STEP</div>
+                                            <div class="num">01</div>
+                                        </div>
+                                        <div class="step-content">
+                                            <h3 class="step-title">
+                                            <span class="user">【応募者】</span>調査協力に応募していただく
+                                            </h3>
+                                        </div>
                                     </div>
-                                    <img src="<?php echo T_DIRE_URI; ?>/assets/img/flow01.webp">
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="<?php echo HOME . 'flow'; ?>">
-                            <span class="viewmore-btn">
-                                <p>詳細はこちら</p>
-                            </span>
-                        </a>
+                                </li>
+                                <li class="each-step">
+                                    <div class="step-wrapper">
+                                        <div class="step-number">
+                                            <div class="label">STEP</div>
+                                            <div class="num">02</div>
+                                        </div>
+                                        <div class="step-content">
+                                            <h3 class="step-title">
+                                            <span class="manager">【物調】</span>応募内容の確認と当選者への連絡
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="each-step">
+                                    <div class="step-wrapper">
+                                        <div class="step-number">
+                                            <div class="label">STEP</div>
+                                            <div class="num">03</div>
+                                        </div>
+                                        <div class="step-content">
+                                            <h3 class="step-title">
+                                            <span class="user">【応募者】</span>提出物のアップロード
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="each-step">
+                                    <div class="step-wrapper">
+                                        <div class="step-number">
+                                            <div class="label">STEP</div>
+                                            <div class="num">04</div>
+                                        </div>
+                                        <div class="step-content">
+                                            <h3 class="step-title">
+                                            <span class="manager">【物調】</span>提出物の確認、必要に応じて追加、修正提出依頼
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="each-step">
+                                    <div class="step-wrapper">
+                                        <div class="step-number">
+                                            <div class="label">STEP</div>
+                                            <div class="num">05</div>
+                                        </div>
+                                        <div class="step-content">
+                                            <h3 class="step-title">
+                                            <span class="user">【応募者】</span>追加の提出物のアップロード
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="each-step">
+                                    <div class="step-wrapper">
+                                        <div class="step-number">
+                                            <div class="label">STEP</div>
+                                            <div class="num">06</div>
+                                        </div>
+                                        <div class="step-content">
+                                            <h3 class="step-title">
+                                            STEP04とSTEP05を繰り返し、調査を完了させる。
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="each-step">
+                                    <div class="step-wrapper">
+                                        <div class="step-number">
+                                            <div class="label">STEP</div>
+                                            <div class="num">07</div>
+                                        </div>
+                                        <div class="step-content">
+                                            <h3 class="step-title">
+                                            <span class="manager">【物調】</span>調査完了と<a href="#incentive" class="href-incentive nav-incentive">インセンティブ</a>の送付
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/flow01.webp" data-aos="fade-up">
+                        </div>
+                        <p class="desc-16-normal step-footer-text">【事例調査】参加の可否は、ご記入頂きました内容より、必要とされている事例データであるか？等を加味して建設物価調査会にて判断させていただきます。</p>
                     </div>
-                </div> -->
+                </div>
                 
                 <div class="common-service submissions" id="submissions">
                     <div class="common-service-wrapper content content1100">
@@ -225,52 +221,70 @@
                             <span>Submissions</span>
                         </div>
                         <div class="content-wrapper">
-                            <div class="left-wrapper" data-aos="fade-up">
-                                <p class="desc-16-normal">- 書類はPDFデータまたは、JPEG（写真）での提供をお願いします。</p>
-                                <div class="desc-16-normal caution">
-                                    <div class="label desc-16-bold">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <path d="M22.2 17.6334L14.0016 3.39563C13.7967 3.04681 13.5042 2.75758 13.1532 2.55662C12.8021 2.35566 12.4046 2.24994 12 2.24994C11.5955 2.24994 11.198 2.35566 10.8469 2.55662C10.4958 2.75758 10.2033 3.04681 9.99847 3.39563L1.80003 17.6334C1.60291 17.9708 1.49902 18.3546 1.49902 18.7453C1.49902 19.1361 1.60291 19.5198 1.80003 19.8572C2.00228 20.2081 2.29425 20.4989 2.64599 20.6997C2.99773 20.9006 3.39658 21.0042 3.80159 21H20.1985C20.6032 21.0039 21.0016 20.9001 21.353 20.6993C21.7044 20.4985 21.9961 20.2078 22.1982 19.8572C22.3956 19.52 22.4998 19.1363 22.5001 18.7456C22.5004 18.3548 22.3969 17.971 22.2 17.6334ZM20.8997 19.1063C20.8282 19.2282 20.7256 19.3289 20.6024 19.3981C20.4792 19.4673 20.3398 19.5024 20.1985 19.5H3.80159C3.66029 19.5024 3.52088 19.4673 3.39765 19.3981C3.27442 19.3289 3.17181 19.2282 3.10034 19.1063C3.0356 18.9966 3.00145 18.8717 3.00145 18.7444C3.00145 18.6171 3.0356 18.4921 3.10034 18.3825L11.2988 4.14469C11.3717 4.02335 11.4748 3.92295 11.598 3.85324C11.7212 3.78354 11.8603 3.7469 12.0019 3.7469C12.1435 3.7469 12.2826 3.78354 12.4058 3.85324C12.529 3.92295 12.6321 4.02335 12.705 4.14469L20.9035 18.3825C20.9676 18.4924 21.0011 18.6176 21.0005 18.7449C20.9998 18.8722 20.965 18.997 20.8997 19.1063ZM11.25 13.5V9.75C11.25 9.55109 11.329 9.36032 11.4697 9.21967C11.6104 9.07902 11.8011 9 12 9C12.1989 9 12.3897 9.07902 12.5304 9.21967C12.671 9.36032 12.75 9.55109 12.75 9.75V13.5C12.75 13.6989 12.671 13.8897 12.5304 14.0303C12.3897 14.171 12.1989 14.25 12 14.25C11.8011 14.25 11.6104 14.171 11.4697 14.0303C11.329 13.8897 11.25 13.6989 11.25 13.5ZM13.125 16.875C13.125 17.0975 13.059 17.315 12.9354 17.5C12.8118 17.685 12.6361 17.8292 12.4305 17.9144C12.225 17.9995 11.9988 18.0218 11.7806 17.9784C11.5623 17.935 11.3619 17.8278 11.2045 17.6705C11.0472 17.5132 10.9401 17.3127 10.8966 17.0945C10.8532 16.8762 10.8755 16.65 10.9607 16.4445C11.0458 16.2389 11.19 16.0632 11.375 15.9396C11.56 15.816 11.7775 15.75 12 15.75C12.2984 15.75 12.5845 15.8685 12.7955 16.0795C13.0065 16.2905 13.125 16.5766 13.125 16.875Z" fill="#333333"/>
-                                        </svg>
-                                        写真の注意
-                                    </div>
-                                ・ピントが合い、全面の文字が明確に読める画質であること。<br>
-                                ・折り目等に文字が隠れていない事。(伸ばして撮影して下さい)<br>
-                                ・全体を撮影して下さい。<br>
-                                    <span>
-                                    ・ページ番号等がある場合、そこも含め写真を撮影して下さい。<br>
-                                    ・見切れた部分が無い事。
-                                    </span>
-                                </div>
-                                <p class="desc-16-normal">- 見積などの個人情報は利用しませんが、気になる場合は墨消しいただいて構いません。<br>
-                                &nbsp;&nbsp;※(写真に住所や表札がある場合、こちらで綺麗にボカシ処理をしますので墨消しをしないでください)
-                                </p>
-                                <p class="desc-16-normal">- 不要なもの<br>
-                                ローン計画書、土地測量図面、契約書、契約者氏名
-                                </p>
+                        <div class="right-wrapper" data-aos="fade-up">
+                                <ul class="items-list desc-16-normal">
+                                    <li class="item caution">
+                                        <h4 class="desc-20-normal gradient-text" href="<?php echo HOME; ?>submissions#exterior-photo">
+                                            <img src="<?php echo T_DIRE_URI; ?>/assets/img/causion-mark.png">
+                                            注意事項
+                                        </h4>
+                                        <p class="desc-15-normal">
+                                            ・640×480ピクセル以上で、800万画素程度以上で撮影されたものであること。<br>
+                                            &nbsp;&nbsp;（最近のスマホであれば大丈夫です）<br>
+                                            ・写真は、人物や洗濯物等なるべく他の物が映り込んでいないように配慮してください。<br>
+                                            ・晴天の日中（なるべく正午頃）に撮影した写真であること。<br>
+                                            ・建物全体が画角に入っていること。<br>
+                                            ・自らが撮影した写真、または、利用許諾を取得したものであること。<br>
+                                            ・写真上にロゴや日付等が入っていないこと<br>
+                                            ・直接デジタルで撮影したもので、JPEGデータであること。<br>
+                                            &nbsp;&nbsp;（紙に印刷されたものをデジタル化したものは不可）<br>
+                                            ・提出される写真の墨消しやボカシ処理はしないでください。<br>
+                                            &nbsp;&nbsp;※写真は人物、場所や個人が特定できないよう当方にて画像加工（ぼかし処理）をいたします。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;（表札、車のナンバー、電柱の住所等は、当方にてぼかし加工を行います）<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;（塗りつぶし希望箇所があれば提出時にコメントを記載してください）
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="right-wrapper" data-aos="fade-up">
-                                <h4 class="desc-20-bold">
-                                書類共通事項
-                                </h4>
+                            <div class="left-wrapper" data-aos="fade-up">
                                 <ul class="items-list desc-16-normal">
                                     <li class="item">
-                                        <a class="nav-exterior-photo" href="<?php echo HOME; ?>submissions#exterior-photo">建物外観写真</a>
+                                        <a class="desc-18-normal nav-exterior-photo gradient-text href-btn" href="<?php echo HOME; ?>submissions#exterior-photo">書類共通事項</a>
                                     </li>
                                     <li class="item">
-                                        <a class="nav-drawings" href="<?php echo HOME; ?>submissions#drawings">図面</a>
+                                        <a class="desc-18-normal nav-drawings gradient-text href-btn" href="<?php echo HOME; ?>submissions#drawings">個人情報の取扱い</a>
                                     </li>
                                     <li class="item">
-                                        <a class="nav-estimates" href="<?php echo HOME; ?>submissions#estimates">見積書（建物の見積書）</a>
+                                        <a class="desc-18-bold nav-exterior-photo gradient-text href-btn" href="<?php echo HOME; ?>submissions#exterior-photo">建物外観写真</a>
+                                        <p class="desc-16-normal">
+                                            ・建物の形状、外構位置を確認できる写真　4枚<br>
+                                            ・その建物が映える方向よりの写真（建物全景が入っている事）　1枚以上
+                                        </p>
                                     </li>
                                     <li class="item">
-                                        <a class="nav-specifications" href="<?php echo HOME; ?>submissions#specifications">仕様書</a>
+                                        <a class="desc-18-bold nav-drawings gradient-text href-btn" href="<?php echo HOME; ?>submissions#drawings">図面</a>
+                                        <p class="desc-16-normal">
+                                            ・平面図　全ての階の平面図<br>
+                                            ・立面図　4面
+                                        </p>
+                                    </li>
+                                    <li class="item">
+                                        <a class="desc-18-bold nav-estimates gradient-text href-btn" href="<?php echo HOME; ?>submissions#estimates">見積書</a>
+                                        <p class="desc-16-normal">
+                                            ・見積書一式（全ページ）
+                                        </p>
+                                    </li>
+                                    <li class="item">
+                                        <a class="desc-18-bold nav-specifications gradient-text href-btn" href="<?php echo HOME; ?>submissions#specifications">仕様書</a>
+                                        <p class="desc-16-normal">
+                                            ・仕様書一式（全ページ）
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <span class="viewmore-btn">
-                            <a href="<?php echo HOME . 'flow'; ?>">
+                            <a href="<?php echo HOME . 'submissions'; ?>">
                                 <p>詳細はこちら</p>
                             </a>
                         </span>
@@ -289,16 +303,16 @@
                                     <figure class="luxy-el" data-speed-y="-3" data-offset="150"><a href="<?php echo HOME . 'incentive'; ?>"><img src="<?php echo T_DIRE_URI; ?>/assets/img/incentive01.webp" alt="" class="ofi-img"></a></figure>
                                     <div class="contents">
                                         <h4>1. インセンティブA（10,000円相当の報酬）</h4>
-                                        <p>
+                                        <p class="desc-16-normal">
                                             -資料が全て提出されており、抜けが無い事。<br>
                                             <strong>
-                                            &nbsp;&nbsp;見積書に科目毎（以下参照）の金額が明確に記載されているもの総額、基礎、躯体、内装、外装、設備、諸経費等がそれぞれ記載されており、<br>
-                                            &nbsp;&nbsp;それぞれの金額が確認できる事。
+                                                見積書に科目毎（以下参照）の金額が明確に記載されているもの総額、基礎、躯体、内装、外装、設備、諸経費等がそれぞれ記載されており、<br>
+                                                それぞれの金額が確認できる事。
                                             </strong>
                                         </p>
 
                                         <h4>2. インセンティブB（5,000円相当の報酬）</h4>
-                                        <p>
+                                        <p class="desc-16-normal">
                                             資料が全て提出されており、抜けが無い事。<br>
                                             <strong>
                                                 見積に科目毎の価格が出ていない、確認できないもの。一括見積。<br>
@@ -807,7 +821,7 @@
 
 
 
-//abouus page
+<!-- //abouus page
 // 弊社では、建築に関する事例データを募集しています。
 // 建物の設計やデザインの参考としてではなく、主に建設計画の概算金額把握や既存建物の価値判断に活用されています。
 // プロフェッショナルな方々（不動産鑑定士、設計・建設会社、リートなど）からのご応募お待ちしています。
@@ -817,4 +831,21 @@
 
 // 当選された方には、なんと5000～10000円相当の
 // Amazonギフト券をプレゼントいたします。
-// ぜひお気軽にご応募ください。
+// ぜひお気軽にご応募ください。 -->
+
+
+<!-- <div class="desc-16-normal caution">
+                                    <div class="label desc-16-bold">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M22.2 17.6334L14.0016 3.39563C13.7967 3.04681 13.5042 2.75758 13.1532 2.55662C12.8021 2.35566 12.4046 2.24994 12 2.24994C11.5955 2.24994 11.198 2.35566 10.8469 2.55662C10.4958 2.75758 10.2033 3.04681 9.99847 3.39563L1.80003 17.6334C1.60291 17.9708 1.49902 18.3546 1.49902 18.7453C1.49902 19.1361 1.60291 19.5198 1.80003 19.8572C2.00228 20.2081 2.29425 20.4989 2.64599 20.6997C2.99773 20.9006 3.39658 21.0042 3.80159 21H20.1985C20.6032 21.0039 21.0016 20.9001 21.353 20.6993C21.7044 20.4985 21.9961 20.2078 22.1982 19.8572C22.3956 19.52 22.4998 19.1363 22.5001 18.7456C22.5004 18.3548 22.3969 17.971 22.2 17.6334ZM20.8997 19.1063C20.8282 19.2282 20.7256 19.3289 20.6024 19.3981C20.4792 19.4673 20.3398 19.5024 20.1985 19.5H3.80159C3.66029 19.5024 3.52088 19.4673 3.39765 19.3981C3.27442 19.3289 3.17181 19.2282 3.10034 19.1063C3.0356 18.9966 3.00145 18.8717 3.00145 18.7444C3.00145 18.6171 3.0356 18.4921 3.10034 18.3825L11.2988 4.14469C11.3717 4.02335 11.4748 3.92295 11.598 3.85324C11.7212 3.78354 11.8603 3.7469 12.0019 3.7469C12.1435 3.7469 12.2826 3.78354 12.4058 3.85324C12.529 3.92295 12.6321 4.02335 12.705 4.14469L20.9035 18.3825C20.9676 18.4924 21.0011 18.6176 21.0005 18.7449C20.9998 18.8722 20.965 18.997 20.8997 19.1063ZM11.25 13.5V9.75C11.25 9.55109 11.329 9.36032 11.4697 9.21967C11.6104 9.07902 11.8011 9 12 9C12.1989 9 12.3897 9.07902 12.5304 9.21967C12.671 9.36032 12.75 9.55109 12.75 9.75V13.5C12.75 13.6989 12.671 13.8897 12.5304 14.0303C12.3897 14.171 12.1989 14.25 12 14.25C11.8011 14.25 11.6104 14.171 11.4697 14.0303C11.329 13.8897 11.25 13.6989 11.25 13.5ZM13.125 16.875C13.125 17.0975 13.059 17.315 12.9354 17.5C12.8118 17.685 12.6361 17.8292 12.4305 17.9144C12.225 17.9995 11.9988 18.0218 11.7806 17.9784C11.5623 17.935 11.3619 17.8278 11.2045 17.6705C11.0472 17.5132 10.9401 17.3127 10.8966 17.0945C10.8532 16.8762 10.8755 16.65 10.9607 16.4445C11.0458 16.2389 11.19 16.0632 11.375 15.9396C11.56 15.816 11.7775 15.75 12 15.75C12.2984 15.75 12.5845 15.8685 12.7955 16.0795C13.0065 16.2905 13.125 16.5766 13.125 16.875Z" fill="#333333"/>
+                                        </svg>
+                                        見積・図面等等を写真で撮影する場合の注意
+                                    </div>
+                                    ・ピントが合い、全面の文字が明確に読める画質であること。<br>
+                                    ・折り目等に文字が隠れていない事。(伸ばして撮影して下さい)<br>
+                                    ・全体を撮影して下さい。<br>
+                                    <span>
+                                    ・ページ番号等がある場合、そこも含め写真を撮影して下さい。<br>
+                                    ・見切れた部分が無い事。
+                                    </span>
+                                </div> -->
